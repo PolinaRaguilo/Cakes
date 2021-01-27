@@ -198,17 +198,21 @@ a {
     box-shadow: 5px 8.66px 13px 2px rgb(174, 174, 174);
 }
 
-.classic_card:hover {
+.classic_card:hover,
+.muss_card:hover,
+.wedding_card:hover {
     box-shadow: 5px 8.66px 13px 2px rgb(163, 6, 60);
 }
 
 
-.classic_card_title {
+.classic_card_title,
+.muss_card_title,
+.wedding_card_title {
     position: absolute;
 }
 
 .classic_title_cake {
-    margin-top: 40px;
+    margin-top: 36px;
     margin-left: 47px;
     margin-bottom: 0;
     font-family: 'Questrial', sans-serif;
@@ -252,4 +256,51 @@ a {
 
 .muss_card {
     margin-bottom: 40px;
+    position: relative;
+    width: 484px;
+    height: 305px;
+    box-shadow: 5px 8.66px 13px 2px rgb(174, 174, 174);
+}
+
+
+.muss_title_cake, .wedding_title_cake {
+    font-family: 'Questrial', sans-serif;
+    margin-left: 49px;
+    margin-top: 36px;
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: 400;
+    color: #2d2829;
+}
+
+.muss_number_cake, .wedding_number_cake {
+    opacity: 0.7;
+    margin-left: 49px;
+    margin-top: 6px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #2d2829;
+}
+
+.muss_card_footer {
+    position: absolute;
+    display: flex;
+    bottom: 8px;
+    right: 16px;
+
+}
+
+.wedding_card {
+    position: relative;
+    width: 484px;
+    height: 305px;
+    box-shadow: 5px 8.66px 13px 2px rgb(174, 174, 174);
+}
+
+.wedding_card_footer {
+    position: absolute;
+    display: flex;
+    bottom: 8px;
+    right: 16px;
 }
