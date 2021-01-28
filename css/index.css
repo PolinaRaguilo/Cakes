@@ -1,3 +1,7 @@
+body {
+    width: 100%;
+}
+
 .menu__container {
     display: flex;
     align-items: center;
@@ -200,14 +204,20 @@ a {
 
 .classic_card:hover,
 .muss_card:hover,
-.wedding_card:hover {
+.wedding_card:hover,
+.man_card:hover,
+.woman_card:hover,
+.kids_card:hover {
     box-shadow: 5px 8.66px 13px 2px rgb(163, 6, 60);
 }
 
 
 .classic_card_title,
 .muss_card_title,
-.wedding_card_title {
+.wedding_card_title,
+.man_card_title,
+.woman_card_title,
+.kids_card_title {
     position: absolute;
 }
 
@@ -252,8 +262,12 @@ a {
     color: #757575;
     display: block;
     margin: 24px;
+    width: 17px;
 }
 
+.fa-arrow-right:hover::before{
+    color:#9d6d7d;
+}
 .muss_card {
     margin-bottom: 40px;
     position: relative;
@@ -263,7 +277,11 @@ a {
 }
 
 
-.muss_title_cake, .wedding_title_cake {
+.muss_title_cake,
+.wedding_title_cake,
+.man_title_cake,
+.woman_title_cake,
+.kids_title_cake {
     font-family: 'Questrial', sans-serif;
     margin-left: 49px;
     margin-top: 36px;
@@ -273,7 +291,11 @@ a {
     color: #2d2829;
 }
 
-.muss_number_cake, .wedding_number_cake {
+.muss_number_cake,
+.wedding_number_cake,
+.man_number_cake,
+.woman_number_cake,
+.kids_number_cake {
     opacity: 0.7;
     margin-left: 49px;
     margin-top: 6px;
@@ -283,7 +305,11 @@ a {
     color: #2d2829;
 }
 
-.muss_card_footer {
+.muss_card_footer,
+.wedding_card_footer,
+.man_card_footer,
+.woman_card_footer,
+.kids_card_footer {
     position: absolute;
     display: flex;
     bottom: 8px;
@@ -291,16 +317,32 @@ a {
 
 }
 
-.wedding_card {
+.wedding_card,
+.man_card,
+.woman_card {
     position: relative;
     width: 484px;
     height: 305px;
     box-shadow: 5px 8.66px 13px 2px rgb(174, 174, 174);
 }
 
-.wedding_card_footer {
-    position: absolute;
+.cakes_gallery__second {
     display: flex;
-    bottom: 8px;
-    right: 16px;
+    margin-top: 45px;
+}
+
+.little_cards_second{
+    margin-left: 72px;
+}
+
+.man_card{
+    margin-bottom: 40px;
+}
+
+.kids_card{
+    margin-left: 60px;
+    position: relative;
+    width: 696px;
+    height: 653px;
+    box-shadow: 5px 8.66px 13px 2px rgb(174, 174, 174);
 }
