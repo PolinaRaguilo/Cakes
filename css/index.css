@@ -1,11 +1,16 @@
 @import './header/header.css';
-body{
-    background-color:  #fbebea;
+
+body {
+    background-color: #fbebea;
 }
+
 .wrapper {
     margin: 0 auto;
     max-width: 1366px;
 }
+
+
+
 
 .promo_container {
     display: flex;
@@ -216,9 +221,10 @@ body{
     width: 17px;
 }
 
-.fa-arrow-right:hover::before{
-    color:#9d6d7d;
+.fa-arrow-right:hover::before {
+    color: #9d6d7d;
 }
+
 .muss_card {
     margin-bottom: 40px;
     position: relative;
@@ -282,18 +288,44 @@ body{
     margin-top: 45px;
 }
 
-.little_cards_second{
+.little_cards_second {
     margin-left: 72px;
 }
 
-.man_card{
+.man_card {
     margin-bottom: 40px;
 }
 
-.kids_card{
+.kids_card {
     margin-left: 60px;
     position: relative;
     width: 696px;
     height: 653px;
     box-shadow: 5px 8.66px 13px 2px rgb(174, 174, 174);
+}
+
+.individual-order {
+    min-height: 2180px;
+    margin-top: 105px;
+    background-color: #fbebea;
+}
+
+.titles{
+    text-align: center;
+}
+
+.titles__heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    color: #2d2829;
+}
+
+.titles__subtitle {
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    margin: 16px;
+    font-weight: 400;
+    color: #32313d;
 }
