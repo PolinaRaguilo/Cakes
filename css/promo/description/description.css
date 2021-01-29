@@ -1,0 +1,30 @@
+.promo__descr {
+    display: flex;
+    margin-right: 72px;
+}
+
+.promo__box{
+    display: flex;
+    margin-left: 75px;
+    margin-top: 130px;
+}
+
+.ingridients__img {
+    margin-right: 12px;
+    width: 55px;
+    height: 55px;
+}
+
+.promo__box__text {
+    font-family: 'Questrial', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #000000;
+}
+.delivery__img {
+    margin-right: 16px;
+    width: 55px;
+    height: 55px;
+}
+

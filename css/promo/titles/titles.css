@@ -1,0 +1,21 @@
+.promo__header {
+    font-family: 'Playfair Display', serif;
+    margin-left: 75px;
+    padding-top: 160px;
+    font-size: 79px;
+    line-height: 70px;
+    font-weight: 700;
+    letter-spacing: 0.075em;
+    color: #2e2829;
+}
+
+.promo__subtitle {
+    font-family: 'Lobster', cursive;
+    font-size: 41px;
+    margin-left: 75px;
+    margin-top: 30px;
+    line-height: 77px;
+    font-weight: 400;
+    letter-spacing: 0.075em;
+    color: #32313d;
+}

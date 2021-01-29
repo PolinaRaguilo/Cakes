@@ -1,0 +1,18 @@
+
+.sweets__cake {
+    margin-top: 25px;
+    position: absolute;
+    margin-left: 255px;
+}
+
+
+.sweets__strawberry1 {
+    margin-top: 45px;
+    margin-bottom: 80px;
+}
+
+.sweets__strawberry2 {
+    position: relative;
+    margin-top: 130px;
+    margin-left: -12em;
+}
