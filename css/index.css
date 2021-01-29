@@ -41,11 +41,10 @@ body {
     color: #32313d;
 }
 
-.promo__btn {
-    width: 226px;
-    height: 51px;
+.btn {
+
     background-color: #f50049;
-    border-radius: 26px;
+    border-radius: 25.5px;
     font-family: 'Questrial', sans-serif;
     border: 0;
     font-size: 13px;
@@ -53,6 +52,11 @@ body {
     font-weight: 400;
     text-transform: uppercase;
     color: #ffffff;
+}
+
+.promo__btn {
+    width: 226px;
+    height: 51px;
     margin-top: 60px;
     margin-left: 75px;
 }
@@ -310,7 +314,7 @@ body {
     background-color: #fbebea;
 }
 
-.titles{
+.titles {
     text-align: center;
 }
 
@@ -328,4 +332,114 @@ body {
     margin: 16px;
     font-weight: 400;
     color: #32313d;
+}
+
+.step {
+    display: flex;
+    margin: 49px 73px 35px;
+    width: 1220px;
+    height: 571px;
+    background-color: #ffffff;
+    position: absolute;
+
+}
+
+
+
+.step__title {
+    margin-top: 44px;
+    margin-left: 83px;
+    width: 130px;
+}
+
+.step__number {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 59px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    color: #f50049;
+}
+
+.step__name {
+    margin-top: 0px;
+    font-family: 'Playfair Display', serif;
+    font-size: 27px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    color: #f50049;
+}
+
+.cake-ganash {
+    display: flex;
+    margin-top: 88px;
+}
+
+.cake-ganash__img {
+    width: 344px;
+    height: 390px;
+}
+
+.cake-ganash__description {
+    width: 280px;
+    margin-left: 44px;
+    margin-top: 71px;
+}
+
+.description__header {
+    margin-bottom: 12px;
+    margin-top: 0;
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    color: #2f2f2f;
+}
+
+.description__article {
+    margin-top: 0;
+    font-family: 'Questrial', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #2f2f2f;
+}
+
+.description__price {
+    margin-top: 24px;
+    margin-bottom: 50px;
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #2f2f2f;
+}
+
+.cake-ganash__btn {
+    width: 180px;
+    height: 51px;
+}
+
+.fa-chevron-left::before {
+    color: #d77c8f;
+    margin-right: 90px;
+}
+
+.fa-chevron-right::before {
+    color: #d77c8f;
+    margin-left: 135px;
+}
+
+.cake-ganash__arrow-left,
+.cake-ganash__arrow-left {
+    margin-top: 186px;
+}
+
+.cake-ganash__number {
+    margin-top: 376px;
+    opacity: 0.7;
+    font-family: 'Questrial', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #2f2f2f;
 }
