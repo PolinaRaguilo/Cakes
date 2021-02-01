@@ -4,8 +4,3 @@
     margin-top: 60px;
     margin-left: 75px;
 }
-
-.promo__btn:hover {
-    box-shadow: 0px 5px 7px 1px rgba(255, 0, 67, 0.3);
-    border-radius: 25.5px;
-}
