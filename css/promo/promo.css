@@ -2,6 +2,7 @@
 @import './__btn/__btn.css';
 @import './description/description.css';
 @import './-sweets__wrapper/-sweets__wrapper.css';
+@import './__btn/__btn.css';
 .promo__container {
     display: flex;
     min-height: 920px;
