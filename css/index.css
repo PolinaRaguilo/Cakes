@@ -1,7 +1,7 @@
 @import './header/header.css';
 @import './promo/promo.css';
 @import './cakes-gallery/cakes-gallery.css';
-
+@import './individual-order/individual-order.css';
 body {
     background-color: #fbebea;
 }
@@ -28,125 +28,6 @@ body {
     border-radius: 25.5px;
 }
 
-
-
-.individual-order {
-    min-height: 2180px;
-    margin-top: 105px;
-    background-color: #fbebea;
-}
-
-.titles {
-    text-align: center;
-}
-
-.titles__heading {
-    font-family: 'Playfair Display', serif;
-    font-size: 40px;
-    font-weight: 700;
-    letter-spacing: 0.01em;
-    color: #2d2829;
-}
-
-.titles__subtitle {
-    font-family: 'Lobster', cursive;
-    font-size: 35px;
-    margin: 16px;
-    font-weight: 400;
-    color: #32313d;
-}
-
-
-
-.step {
-    margin: 49px 73px 35px;
-    width: 1220px;
-    height: 571px;
-    background-color: #ffffff;
-    box-shadow: 0px 5px 12.74px 0.26px rgba(139, 14, 62, 0.1);
-}
-
-.first-step {
-    display: flex;
-
-}
-
-
-.step__title {
-    padding-top: 44px;
-    margin-left: 83px;
-    width: 130px;
-}
-
-.step__number {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-bottom: 10px;
-    font-family: 'Playfair Display', serif;
-    font-size: 59px;
-    font-weight: 700;
-    letter-spacing: 0.01em;
-    color: #f50049;
-}
-
-.step__name {
-    margin-top: 0px;
-    font-family: 'Playfair Display', serif;
-    font-size: 27px;
-    font-weight: 700;
-    letter-spacing: 0.01em;
-    color: #f50049;
-}
-
-.cake-ganash {
-    display: flex;
-    margin-top: 88px;
-}
-
-.cake-ganash__img {
-    width: 344px;
-    height: 390px;
-}
-
-.cake-ganash__description {
-    width: 280px;
-    margin-left: 44px;
-    margin-top: 71px;
-}
-
-.description__header {
-    margin-bottom: 12px;
-    margin-top: 0;
-    font-family: 'Questrial', sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: 0.01em;
-    color: #2f2f2f;
-}
-
-.description__article {
-    margin-top: 0;
-    font-family: 'Questrial', sans-serif;
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 400;
-    color: #2f2f2f;
-}
-
-.description__price {
-    margin-top: 24px;
-    margin-bottom: 50px;
-    font-family: 'Playfair Display', serif;
-    font-size: 22px;
-    font-weight: 700;
-    color: #2f2f2f;
-}
-
-.cake-ganash__btn {
-    width: 180px;
-    height: 51px;
-}
-
 .fa-chevron-left::before {
     color: #d77c8f;
 
@@ -156,142 +37,6 @@ body {
     color: #d77c8f;
 
 }
-
-.cake-ganash__arrow-left {
-    width: 9px;
-    height: 16px;
-    margin-top: 186px;
-    margin-right: 91px;
-}
-
-.cake-ganash__arrow-right {
-    width: 9px;
-    height: 16px;
-    margin-top: 186px;
-    margin-left: 135px;
-}
-
-.cake-ganash__number {
-    margin-top: 376px;
-    opacity: 0.7;
-    font-family: 'Questrial', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    color: #2f2f2f;
-}
-
-.second-step {
-    margin-top: 35px;
-    display: flex;
-}
-
-.second-step_title {
-    padding-top: 75px;
-}
-
-.size__wrapper {
-    display: flex;
-    min-width: 870px;
-    margin-top: 140px;
-    margin-right: 188px;
-    margin-left: 15px;
-}
-
-.size__descr {
-    opacity: 0.8;
-    font-family: 'Questrial', sans-serif;
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: 400;
-    color: #2f2f2f;
-}
-
-.size__1kg {
-    width: 130px;
-    height: 110px;
-    padding-top: 92px;
-    position: relative;
-}
-
-.size__label__1kg {
-    top: 130px;
-    left: 40px;
-}
-
-.size__label {
-    font-family: 'Questrial', sans-serif;
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: 400;
-    color: #2f2f2f;
-    position: absolute;
-
-}
-
-
-.size__2kg {
-    width: 154px;
-    height: 154px;
-    margin-left: 68px;
-    padding-top: 45px;
-    position: relative;
-}
-
-.size__label__2kg {
-    top: 114px;
-    left: 60px;
-}
-
-.second__descr {
-    margin-left: 20px;
-}
-
-.size__5kg {
-    width: 173px;
-    height: 174px;
-    margin-left: 64px;
-    padding-top: 28px;
-    position: relative;
-}
-
-.size__5kg__img {
-    position: relative;
-}
-
-.size__in {
-    position: absolute;
-    top: 30px;
-    left: 30px;
-}
-
-.size__label__5kg {
-    top: 100px;
-    left: 72px;
-}
-
-.size__8kg {
-    width: 200px;
-    height: 202px;
-    position: relative;
-    margin-left: 73px;
-}
-
-.size__in__8kg {
-    top: 42px;
-    left: 46px;
-}
-
-.size__mid {
-    position: absolute;
-    top: 21px;
-    left: 24px;
-}
-
-.size__label__8kg {
-    top: 85px;
-    left: 88px;
-}
-
 .third-step {
     height: 752px;
 }
@@ -407,7 +152,6 @@ body {
 
 .choice__title {
     font-family: 'Pacifico', cursive;
-    ;
     margin-top: 0;
     margin-bottom: 0;
     font-size: 27px;

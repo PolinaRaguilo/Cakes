@@ -1,0 +1,23 @@
+.size__8kg {
+  width: 200px;
+  height: 202px;
+  position: relative;
+  margin-left: 73px;
+}
+
+.size__mid {
+  position: absolute;
+  top: 21px;
+  left: 24px;
+}
+
+.size__in__8kg {
+  position: absolute;
+  top: 42px;
+  left: 46px;
+}
+
+.size__label__8kg {
+  top: 85px;
+  left: 88px;
+}

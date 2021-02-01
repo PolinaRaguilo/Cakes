@@ -1,0 +1,9 @@
+@import './size/size.css';
+.second-step {
+  margin-top: 35px;
+  display: flex;
+}
+
+.second-step_title {
+  padding-top: 75px;
+}

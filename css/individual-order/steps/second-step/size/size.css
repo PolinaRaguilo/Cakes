@@ -1,0 +1,31 @@
+@import './__1kg/__1kg.css';
+@import './__2kg/__2kg.css';
+@import './__5kg/__5kg.css';
+@import './__8kg/__8kg.css';
+
+.size__wrapper {
+  display: flex;
+  min-width: 870px;
+  margin-top: 140px;
+  margin-right: 188px;
+  margin-left: 15px;
+}
+
+.size__descr {
+  opacity: 0.8;
+  font-family: 'Questrial', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #2f2f2f;
+}
+
+.size__label {
+  font-family: 'Questrial', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #2f2f2f;
+  position: absolute;
+
+}

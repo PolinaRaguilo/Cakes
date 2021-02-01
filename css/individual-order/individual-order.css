@@ -1,0 +1,8 @@
+@import './__text/__text.css';
+@import './steps/steps.css';
+
+.individual-order {
+  min-height: 2180px;
+  margin-top: 105px;
+  background-color: #fbebea;
+}
