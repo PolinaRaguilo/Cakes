@@ -11,7 +11,6 @@ body {
 }
 
 .btn {
-
     background-color: #f50049;
     border-radius: 25.5px;
     font-family: 'Questrial', sans-serif;
@@ -22,7 +21,8 @@ body {
     text-transform: uppercase;
     color: #ffffff;
 }
-.btn:hover{
+
+.btn:hover {
     box-shadow: 0px 5px 7px 1px rgba(255, 0, 67, 0.3);
     border-radius: 25.5px;
 }
@@ -565,41 +565,44 @@ body {
     font-weight: 400;
     color: #2f2f2f;
 }
+
 .third-step__choice {
     margin-top: 27px;
     margin-left: 73px;
 }
-.choice__header{
+
+.choice__header {
     font-family: 'Playfair Display', serif;
-font-size: 27px;
-font-weight: 700;
-letter-spacing: 0.01em;
-color: #2d2829;
+    font-size: 27px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    color: #2d2829;
 }
 
-.choice__wrapper{
+.choice__wrapper {
     display: flex;
     margin-top: 23px;
 }
 
-.choice__title{
-    font-family: 'Pacifico', cursive;;
+.choice__title {
+    font-family: 'Pacifico', cursive;
+    ;
     margin-top: 0;
     margin-bottom: 0;
-font-size: 27px;
-font-weight: 400;
-color: #f50049;
+    font-size: 27px;
+    font-weight: 400;
+    color: #f50049;
 }
 
-.choice__name{
+.choice__name {
     font-family: 'Questrial', sans-serif;
-font-size: 18px;
-margin-bottom: 0;
-font-weight: 400;
-color: #2d2829;
+    font-size: 18px;
+    margin-bottom: 0;
+    font-weight: 400;
+    color: #2d2829;
 }
 
-.choice__span{
+.choice__span {
     width: 249px;
     height: 1px;
     margin-top: 11px;
@@ -609,24 +612,116 @@ color: #2d2829;
     border-style: solid;
     background-color: rgb(187, 174, 174);
 }
-.size__span{
+
+.size__span {
     width: 137px;
 }
 
-.choice__taste{
+.choice__taste {
     margin-right: 83px;
 }
 
-.choice__size{
+.choice__size {
     margin-right: 85px;
 }
 
-.choice__decor{
+.choice__decor {
     margin-right: 26px;
 }
 
-.btn__order{
+.btn__order {
     width: 226px;
-height: 51px;
-margin-top: 30px;
+    height: 51px;
+    margin-top: 30px;
+}
+
+.reviews {
+    min-height: 620px;
+    margin-top: -50px;
+}
+
+.garland {
+    display: flex;
+    margin-top: 0;
+}
+
+.garland-left {
+    margin-right: 270px;
+}
+
+.reviews__header {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #2d2829;
+}
+
+.review__wrapper {
+    display: flex;
+    margin-top: 64px;
+    margin-left: 258px;
+}
+
+.person__img {
+    margin-left: 100px;
+    margin-right: 54px;
+}
+
+.person__name {
+    font-family: 'Questrial', sans-serif;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 27px;
+    font-weight: 700;
+    color: #2d2829;
+}
+
+.person__job {
+    font-family: 'Questrial', sans-serif;
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #2d2829;
+}
+
+.person__review {
+    font-family: 'Questrial', sans-serif;
+    font-size: 18.5px;
+    line-height: 24px;
+    font-weight: 400;
+    width: 370px;
+    color: #2d2829;
+}
+
+.review__more {
+    font-size: 19px;
+    text-decoration: underline;
+    color: rgba(210, 1, 73, 0.702);
+    margin-left: 10px;
+    font-style: italic;
+}
+
+.review__arrow-left {
+    width: 9px;
+    height: 16px;
+    margin-top: 105px;
+}
+
+.review__arrow-right {
+    width: 9px;
+    height: 16px;
+    margin-top: 105px;
+    margin-left: 107px;
+}
+
+.review__number {
+    opacity: 0.7;
+    font-family: 'Questrial', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #f50049;
+    margin-top: 230px;
 }
