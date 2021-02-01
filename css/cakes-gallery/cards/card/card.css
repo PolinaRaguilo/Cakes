@@ -1,0 +1,51 @@
+.big-card{
+    position: relative;
+    width: 696px;
+    height: 653px;
+}
+
+.little-card{
+    position: relative;
+    width: 484px;
+    height: 305px;
+}
+
+.card{
+    box-shadow: 5px 8.66px 13px 2px rgb(174, 174, 174);
+}
+
+.card:hover{
+    box-shadow: 5px 8.66px 13px 2px rgb(163, 6, 60);
+}
+
+.card__title{
+    position: absolute;
+}
+
+.card__title-cake{
+    margin-top: 36px;
+    margin-left: 49px;
+    margin-bottom: 0;
+    font-family: 'Questrial', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #2d2829;
+}
+
+.card__number-cake{
+    margin-top: 12px;
+    margin-bottom: 0;
+    margin-left: 46px;
+    opacity: 0.7;
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #2d2829
+}
+
+.card__footer{
+    position: absolute;
+    display: flex;
+    bottom: 8px;
+    right: 16px;
+}

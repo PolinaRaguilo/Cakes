@@ -3,7 +3,7 @@
 @import './description/description.css';
 @import './-sweets__wrapper/-sweets__wrapper.css';
 
-.promo__container {
+.promo {
     display: flex;
     min-height: 920px;
     background-color: #fbebea;

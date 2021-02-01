@@ -1,0 +1,13 @@
+.classic-card {
+    margin-left: 70px;
+}
+
+
+
+.classic-card__footer-text {
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    bottom: 50px;
+    font-weight: 400;
+    color: #2d2829;
+}
