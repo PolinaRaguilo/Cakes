@@ -1,6 +1,6 @@
 @import './size/size.css';
 .second-step {
-  margin-top: 35px;
+  margin-top: 35px !important;
   display: flex;
 }
 
