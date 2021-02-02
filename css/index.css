@@ -391,7 +391,6 @@ body {
 }
 
 .citation {
-    height: 300px;
     text-align: center;
 }
 
@@ -415,4 +414,165 @@ body {
     font-style: italic;
     letter-spacing: 0.01em;
     color: #2d2829;
+}
+
+.advantages {
+    margin-top: 143px;
+}
+
+.advantages__header {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #2d2829;
+}
+
+.advantages__subtitle {
+    text-align: center;
+    margin-top: 0;
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    font-weight: 400;
+    color: #32313d;
+}
+
+.food__wrapper {
+    position: relative;
+    margin-left: -25px;
+}
+
+.advantages__wrapper {
+    display: flex;
+}
+
+.food__plants__wrapper {
+
+    display: flex;
+}
+
+.rasberry {
+    position: absolute;
+    width: 52px;
+    height: 54px;
+}
+
+.leaf {
+    position: absolute;
+    left: 98px;
+    top: -100px;
+}
+
+.cherry {
+    top: -60px;
+    left: 294px;
+    position: absolute;
+}
+
+.berries-cake {
+    width: 495px;
+    height: 523px;
+}
+
+.leafs {
+    position: absolute;
+    left: 389px;
+    top: 457px;
+}
+
+.advantages__information {
+    display: flex;
+    margin-top: 132px;
+    margin-left: 125px;
+}
+
+.advantages__icon {
+    width: 61px;
+    height: 61px;
+    margin-right: 20px;
+    margin-top: 8px;
+}
+
+.advantage__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+}
+
+
+
+.advantage__text {
+    font-family: 'Questrial', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.advantages__text__wrapper p:nth-child(2) {
+    margin-bottom: 40px;
+}
+
+.second-advantage__wrapper {
+    margin-top: 342px;
+    margin-left: 73px;
+    margin-right: 88px;
+}
+
+.second-advantage__header {
+    margin-top: 0;
+    margin-bottom: 29px;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #2d2829;
+}
+
+.second-advantage__subtitle {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    font-weight: 400;
+    color: #32313d;
+}
+
+.second-advantage__text {
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000000;
+}
+.second-advantage__img__wrapper{
+    position: relative;
+}
+
+.second-advantage__dots__img {
+    width: 768px;
+    height: 802px;
+    position: absolute;
+}
+
+.second-advantage__plate__img {
+    top: 77px;
+    left: 103px;
+    width: 627px;
+    height: 627px;
+    position: absolute;
+}
+
+.second-advantage__cake__img {
+    top: 102px;
+    left: 131px;
+    position: absolute;
+    width: 590px;
+    height: 577px;
 }
