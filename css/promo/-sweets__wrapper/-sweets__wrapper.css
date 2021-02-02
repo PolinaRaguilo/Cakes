@@ -2,8 +2,17 @@
 .sweets-cake__img {
     margin-top: 25px;
     position: absolute;
-    margin-left: 255px;
+    /* margin-left: 255px; */
+    margin-left: 62px;
 }
+
+/* .sweets-cake__img {
+    width: 759px;
+height: 918px;
+margin-left: 182px;
+background: url(./promo_cake1.png);
+} */
+
 
 
 .sweets-strawberry1__img {
