@@ -1,0 +1,31 @@
+.design__card {
+
+  background-color: rgb(148, 148, 148);
+  box-shadow: 0px 7px 12.74px 0.26px rgba(0, 0, 0, 0.05);
+}
+
+.design__card:hover {
+  background-color: rgb(148, 148, 148);
+  box-shadow: 0px 6px 9.7px 0.3px rgba(0, 0, 0, 0.14);
+}
+
+.design__arrow-left {
+  width: 9px;
+  height: 16px;
+  margin-top: 209px;
+  margin-right: 70px;
+}
+
+.design__arrow-right {
+  width: 9px;
+  height: 16px;
+  margin-top: 209px;
+}
+.design__number {
+  margin-top: 420px;
+  opacity: 0.7;
+  font-family: 'Questrial', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #2f2f2f;
+}

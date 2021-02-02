@@ -1,0 +1,60 @@
+.third-step__choice {
+  margin-top: 27px;
+  margin-left: 73px;
+}
+.choice__header {
+  font-family: 'Playfair Display', serif;
+  font-size: 27px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: #2d2829;
+}
+
+.choice__wrapper {
+  display: flex;
+  margin-top: 23px;
+}
+
+.choice__title {
+  font-family: 'Pacifico', cursive;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 27px;
+  font-weight: 400;
+  color: #f50049;
+}
+
+.choice__name {
+  font-family: 'Questrial', sans-serif;
+  font-size: 18px;
+  margin-bottom: 0;
+  font-weight: 400;
+  color: #2d2829;
+}
+
+.choice__span {
+  width: 249px;
+  height: 1px;
+  margin-top: 11px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(187, 174, 174);
+  border-style: solid;
+  background-color: rgb(187, 174, 174);
+}
+
+.size__span {
+  width: 137px;
+}
+
+.choice__taste {
+  margin-right: 83px;
+}
+
+.choice__size {
+  margin-right: 85px;
+}
+
+.choice__decor {
+  margin-right: 26px;
+}

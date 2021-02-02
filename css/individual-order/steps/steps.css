@@ -1,5 +1,6 @@
 @import './first-step/first-step.css';
 @import './second-step/second-step.css';
+@import './third-step/third-step.css';
 
 .step {
   margin: 49px 73px 35px;

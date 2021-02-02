@@ -1,0 +1,12 @@
+@import './__cakes.css';
+@import './design-titles.css';
+@import './design__card.css';
+@import './choice.css';
+@import './__btn-order.css';
+.third-step {
+  height: 752px !important;
+}
+.third-step__cakes__gallery {
+  display: flex;
+  margin-top: -75px;
+}

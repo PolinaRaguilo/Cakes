@@ -1,0 +1,29 @@
+
+.third-step__cakes {
+  display: flex;
+
+}
+
+.berry-cake,
+.marshmellou-cake {
+    width: 321px;
+    height: 431px;
+    position: relative;
+}
+
+.first-cake-png {
+  width: 252px;
+  height: 334px;
+  opacity: 0.65;
+  margin-left: 17px;
+  margin-top: 50px;
+  margin-right: 22px;
+}
+
+.berry-cake {
+  margin-right: 41px;
+}
+
+.marshmellou-cake {
+  margin-right: 71px;
+}
