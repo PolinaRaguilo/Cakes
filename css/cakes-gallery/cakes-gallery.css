@@ -1,5 +1,5 @@
-@import './__title/__title.css';
-@import './__first-block/__first-block.css';
+@import './cakes-gallery__title/cakes-gallery__title.css';
+@import './cakes-gallery__first-block/cakes-gallery__first-block.css';
 @import './cards/cards.css';
 .cakes-gallery {
     min-height: 1520px;
