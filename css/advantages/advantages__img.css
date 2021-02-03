@@ -1,0 +1,25 @@
+.second-advantage__img__wrapper {
+  position: relative;
+}
+
+.second-advantage__dots__img {
+  margin-top: -73px;
+  width: 768px;
+  height: 802px;
+  position: absolute;
+}
+
+.second-advantage__plate__img {
+  left: 103px;
+  width: 627px;
+  height: 627px;
+  position: absolute;
+}
+
+.second-advantage__cake__img {
+  top: 25px;
+  left: 131px;
+  position: absolute;
+  width: 590px;
+  height: 577px;
+}

@@ -1,0 +1,39 @@
+.food__wrapper {
+  position: relative;
+  margin-left: -25px;
+}
+
+
+.food__plants__wrapper {
+
+  display: flex;
+}
+
+.rasberry {
+  position: absolute;
+  width: 52px;
+  height: 54px;
+}
+
+.leaf {
+  position: absolute;
+  left: 98px;
+  top: -100px;
+}
+
+.cherry {
+  top: -60px;
+  left: 294px;
+  position: absolute;
+}
+
+.berries-cake {
+  width: 495px;
+  height: 523px;
+}
+
+.leafs {
+  position: absolute;
+  left: 389px;
+  top: 457px;
+}

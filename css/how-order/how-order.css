@@ -1,0 +1,11 @@
+@import './how-order__label/how-order__label.css';
+@import './how-order__text/how-order__text.css';
+
+.how-order {
+  margin-top: 95px;
+  width: 1366px;
+  height: 703px;
+
+  background-image: url(../how-order/background_box.jpg);
+  position: relative;
+}

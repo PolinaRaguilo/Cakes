@@ -1,0 +1,40 @@
+@import './advantages__food/advantages__food.css';
+@import './advantages__text.css';
+@import './advantages__img.css';
+
+.advantages {
+  margin-top: 143px;
+}
+
+.advantages__header {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #2d2829;
+}
+
+.advantages__subtitle {
+  text-align: center;
+  margin-top: 0;
+  font-family: 'Pacifico', cursive;
+  font-size: 35px;
+  font-weight: 400;
+  color: #32313d;
+}
+.advantages__wrapper {
+  display: flex;
+}
+.advantages__icon {
+  width: 61px;
+  height: 61px;
+  margin-right: 20px;
+  margin-top: 8px;
+}
+.second-advantage__wrapper {
+  margin-top: 342px;
+  margin-left: 73px;
+  margin-right: 88px;
+}

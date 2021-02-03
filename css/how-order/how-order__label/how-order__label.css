@@ -1,0 +1,15 @@
+.how-order__label__img {
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  top: 216px;
+  left: 441px;
+}
+
+.how-order__label__text {
+  width: 70px;
+  height: 20px;
+  position: absolute;
+  top: 263px;
+  left: 470px;
+}
