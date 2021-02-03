@@ -1,8 +1,8 @@
-@import './__cakes.css';
+@import './third-step__cakes.css';
 @import './design-titles.css';
 @import './design__card.css';
 @import './choice.css';
-@import './__btn-order.css';
+@import './third-step__btn-order.css';
 .third-step {
   height: 752px !important;
 }

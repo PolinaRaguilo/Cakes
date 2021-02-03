@@ -1,7 +1,7 @@
-@import './__1kg/__1kg.css';
-@import './__2kg/__2kg.css';
-@import './__5kg/__5kg.css';
-@import './__8kg/__8kg.css';
+@import './size__1kg/size__1kg.css';
+@import './size__2kg/size__2kg.css';
+@import './size__5kg/size__5kg.css';
+@import './size__8kg/size__8kg.css';
 
 .size__wrapper {
   display: flex;
