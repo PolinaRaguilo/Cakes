@@ -1,0 +1,8 @@
+.garland {
+  display: flex;
+  margin-top: 0;
+}
+
+.garland-left {
+  margin-right: 270px;
+}

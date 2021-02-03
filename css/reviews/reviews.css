@@ -1,0 +1,52 @@
+@import './garland.css';
+@import './reviews__person.css';
+
+.reviews {
+  min-height: 620px;
+  margin-top: -50px;
+}
+.reviews__header {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: #2d2829;
+}
+
+.review__wrapper {
+  display: flex;
+  margin-top: 64px;
+  margin-left: 258px;
+}
+
+.review__more {
+  font-size: 19px;
+  text-decoration: underline;
+  color: rgba(210, 1, 73, 0.702);
+  margin-left: 10px;
+  font-style: italic;
+}
+
+.review__arrow-left {
+  width: 9px;
+  height: 16px;
+  margin-top: 105px;
+}
+
+.review__arrow-right {
+  width: 9px;
+  height: 16px;
+  margin-top: 105px;
+  margin-left: 107px;
+}
+
+.review__number {
+  opacity: 0.7;
+  font-family: 'Questrial', sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #f50049;
+  margin-top: 230px;
+}

@@ -1,0 +1,41 @@
+.about-us__social {
+  display: flex;
+  margin-top: 25px;
+
+}
+
+.social__container {
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  width: 36px;
+  height: 36px;
+  position: relative;
+  margin-right: 18px;
+}
+
+.social__container:last-child {
+  margin-right: 0;
+}
+
+.social__icon {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+.social__container:hover {
+  border-radius: 50%;
+  box-shadow: 0px 2px 7px 1px rgba(255, 0, 67, 0.2);
+}
+
+.vk__icon {
+  left: 15%;
+}
+
+.twitter__icon {
+  top: 30%;
+}
+
+.about-us__img {
+  margin-left: 87px;
+}
