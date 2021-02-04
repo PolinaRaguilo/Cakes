@@ -1,0 +1,66 @@
+@import './btn.css';
+@import './contacts__social/contacts__social.css';
+
+.contacts {
+    height: 845px;
+    padding-top: 82px;
+    position: relative;
+}
+
+.contacts__inner_wrapper {
+    display: flex;
+}
+.contacts__header {
+    font-family: 'Playfair Display', serif;
+    margin: 0 0 42px 0;
+    font-size: 40px;
+    font-weight: 700;
+    color: #2d2829;
+}
+
+.contacts__subheader {
+    margin: 0 0 19px 0;
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    font-weight: 400;
+    color: #32313d;
+}
+
+.contacts__form__title {
+    font-family: 'Questrial', sans-serif;
+    margin: 0 0 54px 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.contacts__input {
+    width: 550px;
+    display: block;
+    outline: none;
+    border: none;
+    opacity: 0.2;
+    border-bottom: 1px solid #000000;
+    font-family: 'Questrial', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 43px;
+    background-color: transparent;
+}
+
+.contacts__information {
+    margin-left: 82px;
+}
+
+.contacts__telephone-email {
+    margin: 0 0 27px 0;
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000000;
+}
+.contacts__img{
+    position: absolute;
+    top:209px
+}

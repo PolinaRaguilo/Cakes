@@ -1,0 +1,33 @@
+.contacts__social__wrapper {
+    display: flex;
+    position: relative;
+}
+
+
+
+
+
+
+.contacts__social{
+    width: 63px;
+height: 63px;
+background-color: #ffffff;
+border-radius:50%;
+}
+
+.contacts__inst{
+    position: absolute;
+    top:18px;
+    left: 18px;
+}
+
+.contacts__vk{
+    position: absolute;
+    top:14px;
+    left:102px;
+}
+
+.contacts__social__wrapper .contacts__social:first-child{
+    margin-right: 30px;
+}
+

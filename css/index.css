@@ -7,6 +7,7 @@
 @import './citation/citation.css';
 @import './advantages/advantages.css';
 @import './how-order/how-order.css';
+@import './contacts/contacts.css';
 
 body {
     background-color: #fbebea;
@@ -45,6 +46,4 @@ body {
 }
 
 
-.contacts{
-    height: 845px;
-}
+
