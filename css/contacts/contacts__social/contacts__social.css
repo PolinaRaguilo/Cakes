@@ -5,15 +5,13 @@
 
 
 
-
-
-
 .contacts__social{
     width: 63px;
 height: 63px;
 background-color: #ffffff;
 border-radius:50%;
 }
+
 
 .contacts__inst{
     position: absolute;
