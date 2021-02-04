@@ -8,6 +8,7 @@
 @import './advantages/advantages.css';
 @import './how-order/how-order.css';
 @import './contacts/contacts.css';
+@import './footer/footer.css';
 
 body {
     background-color: #fbebea;

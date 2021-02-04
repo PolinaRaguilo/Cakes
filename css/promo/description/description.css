@@ -16,6 +16,8 @@
 }
 
 .promo__box__text {
+    margin: 0;
+    padding-top: 10px;
     font-family: 'Questrial', sans-serif;
     font-size: 14px;
     line-height: 18px;

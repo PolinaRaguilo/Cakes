@@ -3,6 +3,7 @@
 }
 
 .titles__heading {
+  margin: 0;
   font-family: 'Playfair Display', serif;
   font-size: 40px;
   font-weight: 700;

@@ -1,0 +1,19 @@
+.footer__social {
+    display: flex;
+    margin-top: 45px;
+    margin-right: 75px;
+}
+
+.footer__inst {
+    width: 23px;
+    height: 23px;
+    opacity: 0.4;
+    margin-right: 18px;
+}
+
+.footer__vk {
+    width: 31px;
+    height: 19px;
+    opacity: 0.4;
+
+}

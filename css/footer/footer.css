@@ -1,0 +1,44 @@
+@import './footer__social/footer__social.css';
+footer {
+    height: 160px;
+    background-color: #e8e8e8;
+}
+
+.footer__logo {
+    margin-top: 38px;
+}
+
+
+
+.footer__container {
+    display: flex;
+}
+
+.footer__menu {
+    margin-top: 46px;
+    margin-left: 162px;
+}
+
+
+
+.footer__line {
+    margin-top: 50px;
+    margin-left: 73px;
+    width: 1220px;
+    height: 1px;
+    opacity: 0.1;
+    border: 1px solid #000000;
+    background-color: #000000;
+}
+
+.footer__year {
+    margin-top: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+    opacity: 0.5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    color: #000000;
+}

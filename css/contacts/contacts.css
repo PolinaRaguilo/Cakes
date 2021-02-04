@@ -2,7 +2,7 @@
 @import './contacts__social/contacts__social.css';
 
 .contacts {
-    height: 845px;
+    height: 783px;
     padding-top: 82px;
     position: relative;
 }
@@ -62,5 +62,6 @@
 }
 .contacts__img{
     position: absolute;
-    top:209px
+    top:230px;
+    left: 435px;
 }
