@@ -35,3 +35,25 @@
   letter-spacing: 0.01em;
   color: #f50049;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .step {
+    margin: 31px 20px 31px 20px;
+    width: 728px;
+    height: 348px;
+  }
+
+  .step__title {
+    margin-left: 45px;
+    width: 85px;
+  }
+
+  .step__number {
+    padding-bottom: 8px;
+    font-size: 36px;
+  }
+
+  .step__name {
+    font-size: 18px;
+  }
+}

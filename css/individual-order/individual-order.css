@@ -7,3 +7,10 @@
   margin-top: 105px;
   background-color: #fbebea;
 }
+
+@media (min-width: 768px) and (max-width: 1024px){
+  .individual-order {
+    min-height: 1322px;
+    margin-top: 60px;
+  }
+}

@@ -18,3 +18,15 @@
   font-weight: 400;
   color: #32313d;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .titles__heading {
+    font-size: 28px;
+  }
+
+  .titles__subtitle {
+    font-size: 26px;
+    margin-top: 11px 0 0 0;
+  }
+
+}
