@@ -32,3 +32,23 @@
 .fa-arrow-right:hover::before {
     color: #9d6d7d;
 }
+@media (min-width: 768px) and (max-width: 1024px){
+    .cakes-gallery {
+        min-height: 893px;
+    }
+
+    .cakes-gallery__wrapper {
+        margin-top: 37px;
+    }
+    .cakes-gallery__second {
+        margin-top: 20px;
+    }
+    
+    .fa-arrow-right:before {
+        display: none;
+    }
+    .little-cards__second {
+        margin-left: 20px;
+    }
+    
+}

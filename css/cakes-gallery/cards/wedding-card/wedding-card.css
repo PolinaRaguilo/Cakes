@@ -1,0 +1,7 @@
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .wedding-card__img{
+        width: 288px;
+        height: 184px;
+    }
+}

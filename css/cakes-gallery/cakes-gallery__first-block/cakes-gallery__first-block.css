@@ -4,3 +4,10 @@
 .little-cards {
     margin-left: 60px;
 }
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .little-cards {
+        margin-left: 21px;
+    }
+    
+}
