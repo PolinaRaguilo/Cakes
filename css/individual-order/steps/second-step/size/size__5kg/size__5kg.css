@@ -20,3 +20,29 @@
   top: 100px;
   left: 72px;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .size__5kg {
+    width: 120px;
+    height: 121px;
+    margin-left: 35px;
+    padding-top: 19px;
+  }
+  
+  .size__5kg__img {
+    width: 120px;
+    height: 121px;
+  }
+  
+  .size__in-5kg {
+    width: 77px;
+    height: 77px;
+    top: 41px;
+    left: 23px;
+  }
+  
+  .size__label__5kg {
+    top: 70px;
+    left: 50px;
+  }
+}

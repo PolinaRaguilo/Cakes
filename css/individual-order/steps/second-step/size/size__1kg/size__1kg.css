@@ -9,3 +9,22 @@
   top: 130px;
   left: 40px;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .size__1kg {
+    width: 77px;
+    height: 77px;
+    padding-top: 64px;
+  }
+
+  .size__1kg__img {
+    width: 77px;
+    height: 77px;
+  }
+
+  .size__label__1kg {
+    top: 95px;
+    left: 30px;
+  }
+
+}

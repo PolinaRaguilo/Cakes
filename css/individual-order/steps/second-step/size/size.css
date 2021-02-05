@@ -13,6 +13,7 @@
 
 .size__descr {
   opacity: 0.8;
+  width: 200px;
   font-family: 'Questrial', sans-serif;
   font-size: 18px;
   line-height: 30px;
@@ -28,4 +29,24 @@
   color: #2f2f2f;
   position: absolute;
 
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .size__wrapper {
+    margin-top: 76px;
+    margin-left: -45px;
+  }
+
+  .size__descr {
+    width: 130px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .size__label {
+    font-size: 12px;
+    line-height: 20px;
+
+  }
 }

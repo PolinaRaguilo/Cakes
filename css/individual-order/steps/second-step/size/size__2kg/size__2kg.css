@@ -14,3 +14,26 @@
 .second__descr {
   margin-left: 20px;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .size__2kg {
+    width: 107px;
+    height: 107px;
+    margin-left: 57px;
+    padding-top: 31px;
+  }
+
+  .size__label__2kg {
+    top: 75px;
+    left: 45px;
+  }
+
+  .second__descr {
+    margin-left: 8px;
+  }
+
+  .size__2kg__img {
+    width: 107px;
+    height: 107px;
+  }
+}

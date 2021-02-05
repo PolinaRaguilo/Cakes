@@ -17,7 +17,7 @@
 }
 
 
-.little-cards__second {
+.cakes-gallery__cards-wrapper__little__second{
     margin-left: 72px;
 }
 
@@ -47,8 +47,17 @@
     .fa-arrow-right:before {
         display: none;
     }
-    .little-cards__second {
+    .cakes-gallery__cards-wrapper__little__second {
         margin-left: 20px;
+    }
+    .cakes-gallery__img__big{
+        width: 419px;
+        height: 388px;
+    }
+
+    .cakes-gallery__img__little{
+        width: 288px;
+        height: 184px;
     }
     
 }

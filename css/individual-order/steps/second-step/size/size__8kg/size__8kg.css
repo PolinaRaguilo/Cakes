@@ -1,8 +1,8 @@
 .size__8kg {
   width: 200px;
   height: 202px;
-  position: relative;
   margin-left: 73px;
+  position: relative;
 }
 
 .size__mid {
@@ -20,4 +20,36 @@
 .size__label__8kg {
   top: 85px;
   left: 88px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .size__8kg {
+    width: 139px;
+    height: 141px;
+    margin-left: 51px;
+  }
+  .size__8kg__img {
+    width: 139px;
+    height: 141px;
+  }
+  .size__mid {
+    width: 107px;
+    height: 107px;
+    top: 18px;
+    left: 18px;
+  }
+
+  .size__in__8kg {
+    width: 77px;
+    height: 77px;
+    top: 33px;
+    left: 33px;
+  }
+
+  .size__label__8kg {
+    top: 60px;
+    left: 60px;
+  }
+
+  
 }
