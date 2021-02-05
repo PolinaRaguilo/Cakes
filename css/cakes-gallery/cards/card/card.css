@@ -1,4 +1,4 @@
-.cakes-gallery__card__big {
+.card__size__big {
     position: relative;
     width: 696px;
     height: 653px;
@@ -51,7 +51,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    .cakes-gallery__card__big {
+    .card__size__big {
         width: 419px;
         height: 388px;
     }

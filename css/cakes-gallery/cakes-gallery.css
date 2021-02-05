@@ -3,6 +3,8 @@
 @import './cards/cards.css';
 .cakes-gallery {
     min-height: 1520px;
+    padding-left: 70px;
+    padding-right: 70px;
     background-color: #fbebea;
 }
 
@@ -17,9 +19,6 @@
 }
 
 
-.cakes-gallery__cards-wrapper__little__second{
-    margin-left: 72px;
-}
 
 
 .fa-arrow-right:before {
@@ -35,6 +34,8 @@
 @media (min-width: 768px) and (max-width: 1024px){
     .cakes-gallery {
         min-height: 893px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .cakes-gallery__wrapper {
