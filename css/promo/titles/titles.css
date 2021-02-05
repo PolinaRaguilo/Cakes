@@ -21,3 +21,19 @@
     letter-spacing: 0.075em;
     color: #32313d;
 }
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .promo__header {
+        margin-left: 46px;
+        padding-top: 112px;
+        font-size: 60px;
+        line-height: 55px;
+    }
+    
+    .promo__subtitle {
+        font-size: 36px;
+        margin-left: 46px;
+        margin-top: 29px;;
+    }
+    
+}

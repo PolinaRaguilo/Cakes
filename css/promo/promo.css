@@ -7,6 +7,14 @@
     display: flex;
     min-height: 920px;
     background-color: #fbebea;
+    position: relative;
 }
 
 
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .promo {
+        min-height: 734px;
+        margin: 0;
+    }
+}

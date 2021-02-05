@@ -30,3 +30,9 @@
     height: 55px;
 }
 
+@media (min-width: 768px) and (max-width: 1024px){
+    .promo__box{
+        margin-left: 47px;
+        margin-top: 147px;
+    }
+}
