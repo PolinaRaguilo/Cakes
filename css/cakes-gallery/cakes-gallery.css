@@ -1,6 +1,6 @@
 @import './cakes-gallery__title/cakes-gallery__title.css';
-@import './cakes-gallery__first-block/cakes-gallery__first-block.css';
-@import './cards/cards.css';
+@import './cards/card/card.css';
+
 .cakes-gallery {
     min-height: 1520px;
     padding-left: 70px;
@@ -8,18 +8,26 @@
     background-color: #fbebea;
 }
 
-.cakes-gallery__second {
+
+.cakes-gallery__first-block {
     display: flex;
-    margin-top: 45px;
 }
 
+.cakes-gallery__first-block .card__wrapper_little {
+    margin-left: 41px;
+}
 
 .cakes-gallery__wrapper {
     margin-top: 65px;
 }
+.cakes-gallery__second-block {
+    display: flex;
+    margin-top: 45px;
+}
 
-
-
+.cakes-gallery__second-block .card__wrapper_little {
+    margin-right: 41px;
+}
 
 .fa-arrow-right:before {
     color: #757575;
@@ -31,7 +39,8 @@
 .fa-arrow-right:hover::before {
     color: #9d6d7d;
 }
-@media (min-width: 768px) and (max-width: 1024px){
+
+@media (min-width: 768px) and (max-width: 1024px) {
     .cakes-gallery {
         min-height: 893px;
         padding-left: 20px;
@@ -41,24 +50,21 @@
     .cakes-gallery__wrapper {
         margin-top: 37px;
     }
-    .cakes-gallery__second {
+    .cakes-gallery__second-block {
         margin-top: 20px;
     }
-    
+
     .fa-arrow-right:before {
         display: none;
     }
-    .cakes-gallery__cards-wrapper__little__second {
-        margin-left: 20px;
-    }
-    .cakes-gallery__img__big{
+
+    .cakes-gallery__img__big {
         width: 419px;
         height: 388px;
     }
 
-    .cakes-gallery__img__little{
+    .cakes-gallery__img__little {
         width: 288px;
         height: 184px;
     }
-    
 }

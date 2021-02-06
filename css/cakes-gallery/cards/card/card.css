@@ -1,14 +1,4 @@
-.card__size__big {
-    position: relative;
-    width: 696px;
-    height: 653px;
-}
-
-.cakes-gallery__card__little {
-    position: relative;
-    width: 484px;
-    height: 305px;
-}
+@import '../../cards/classic-card/classic-card.css';
 
 .card {
     box-shadow: 5px 8.66px 13px 2px rgb(174, 174, 174);
@@ -17,12 +7,31 @@
 .card:hover {
     box-shadow: 5px 8.66px 13px 2px rgba(255, 0, 67, 0.2);
 }
+.card__size_big {
+    position: relative;
+    width: 696px;
+    height: 653px;
+}
+.card__img_big{
 
-.cakes-gallery__card__title {
+    width: 696px;
+    height: 653px;
+}
+.card__size_little{
+    position: relative;
+    width: 484px;
+    height: 305px;
+}
+.card__img_little{
+    width: 484px;
+    height: 305px;
+}
+
+.card__text {
     position: absolute;
 }
 
-.card__title-cake {
+.card__title {
     margin-top: 36px;
     margin-left: 49px;
     margin-bottom: 0;
@@ -32,7 +41,7 @@
     color: #2d2829;
 }
 
-.card__number-cake {
+.card__number {
     margin-top: 12px;
     margin-bottom: 0;
     margin-left: 46px;
@@ -49,27 +58,34 @@
     bottom: 8px;
     right: 16px;
 }
+.cakes-gallery .card__size_little:first-child{
+    margin-bottom: 41px;
+}
+
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    .card__size__big {
+    .card__size_big, .card__img_big {
         width: 419px;
         height: 388px;
     }
 
-    .cakes-gallery__card__little {
+    .card__size_little, .card__img_little {
         width: 288px;
         height: 184px;
     }
 
-    .card__title-cake {
+    .card__title {
         margin-top: 23px;
         margin-left: 26px;
         font-size: 15px;
     }
 
-    .card__number-cake {
+    .card__number {
         margin-top: 6px;
         margin-left: 26px;
         font-size: 12px;
+    }
+    .cakes-gallery .card__size_little:first-child{
+        margin-bottom: 20px;
     }
 }
