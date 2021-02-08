@@ -1,4 +1,4 @@
-.titles {
+.titles__wrapper {
   text-align: center;
 }
 
@@ -14,9 +14,12 @@
 .titles__subtitle {
   font-family: 'Pacifico', cursive;
   font-size: 35px;
-  margin: 16px;
   font-weight: 400;
   color: #32313d;
+}
+
+.individual-order__subtitle{
+  margin: 16px;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -26,7 +29,10 @@
 
   .titles__subtitle {
     font-size: 26px;
-    margin-top: 11px 0 0 0;
+  }
+
+  .individual-order__subtitle{
+    margin-top: 11px;
   }
 
 }

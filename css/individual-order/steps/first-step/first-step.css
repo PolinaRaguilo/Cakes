@@ -1,19 +1,18 @@
-.first-step {
+.step__content_first {
   display: flex;
-
 }
 
-.cake-ganash {
+.description__wrapper {
   display: flex;
   margin-top: 88px;
 }
 
-.cake-ganash__img {
+.description__img {
   width: 344px;
   height: 390px;
 }
 
-.cake-ganash__description {
+.description__content {
   width: 280px;
   margin-left: 44px;
   margin-top: 71px;
@@ -46,26 +45,26 @@
   color: #2f2f2f;
 }
 
-.cake-ganash__btn {
+.step__btn_first {
   width: 180px;
   height: 51px;
 }
 
-.cake-ganash__arrow-left {
+.description__arrow-left {
   width: 9px;
   height: 16px;
   margin-top: 186px;
   margin-right: 91px;
 }
 
-.cake-ganash__arrow-right {
+.description__arrow-right {
   width: 9px;
   height: 16px;
   margin-top: 186px;
   margin-left: 135px;
 }
 
-.cake-ganash__number {
+.description__number {
   margin-top: 376px;
   opacity: 0.7;
   font-family: 'Questrial', sans-serif;
@@ -75,17 +74,17 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  .cake-ganash {
+  .step__content_first {
     margin-top: 53px;
     margin-left: -45px;
   }
 
-  .cake-ganash__img {
+  .description__img {
     width: 210px;
     height: 239px;
   }
 
-  .cake-ganash__description {
+  .description__content {
     margin-left: 25px;
     margin-top: 25px;
   }
@@ -106,13 +105,13 @@
     font-size: 20px;
   }
 
-  .cake-ganash__btn {
+  .description__btn {
     width: 135px;
     height: 43px;
     font-size: 10px !important;
   }
 
-  .cake-ganash__arrow-left {
+  .description__arrow-left {
     position: relative;
     width: 40px;
     height: 40px;
@@ -121,16 +120,16 @@
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
     border-radius: 50%;
     margin-top: 95px;
-    margin-right: 60px;
+    margin-right: 42px;
   }
 
-  .cake-ganash__arrow-left .fas{
+  .description__arrow-left .fas{
     position: absolute;
     top: 12px;
     left: 14px;
   }
 
-  .cake-ganash__arrow-right {
+  .description__arrow-right {
     position: relative;
     width: 40px;
     height: 40px;
@@ -142,16 +141,21 @@
     margin-left: -48px;
   }
 
-  .cake-ganash__arrow-right .fas{
+  .description__arrow-right .fas{
     position: absolute;
     top: 12px;
     left: 17px;
   }
 
-  .cake-ganash__number {
+  .description__number {
     margin-top: 230px;
     font-size: 11px;
     margin-left: -70px;
+  }
+
+  .description__wrapper {
+    margin-top: 53px;
+    margin-left: -35px;
   }
 }
 
