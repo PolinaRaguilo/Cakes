@@ -1,7 +1,6 @@
 .sweets-cake__img {
     margin-top: 25px;
     position: absolute;
-    /* margin-left: 255px; */
     margin-left: 62px;
 }
 
@@ -20,8 +19,8 @@
     .sweets-cake__img {
         margin-top: 13px;
         left: 344px;
-        width: 424px;
-        height: 548px;
+        max-width: 424px;
+        max-height: 548px;
     }
 
     .sweets {

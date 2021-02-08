@@ -1,11 +1,11 @@
-.design-titles {
+.carousel__titles{
   position: absolute;
   top: 320px;
   left: 87px;
   bottom: 31px;
 }
 
-.design-titles__header {
+.carousel__header {
   font-family: 'Questrial', sans-serif;
   text-align: center;
   font-weight: 400;
@@ -13,7 +13,7 @@
   color: #2f2f2f;
 }
 
-.design-titles__price {
+.carousel__price {
   font-family: 'Playfair Display', serif;
   margin-top: 5px;
   font-size: 22px;

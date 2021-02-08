@@ -1,31 +1,60 @@
-.design__card {
-
+.carousel__card {
   background-color: rgb(148, 148, 148);
   box-shadow: 0px 7px 12.74px 0.26px rgba(0, 0, 0, 0.05);
+  max-width: 321px;
+  max-height: 431px;
+  position: relative;
 }
 
-.design__card:hover {
+.carousel__card:hover {
   background-color: rgb(148, 148, 148);
   box-shadow: 0px 6px 9.7px 0.3px rgba(0, 0, 0, 0.14);
 }
 
-.design__arrow-left {
-  width: 9px;
-  height: 16px;
+.carousel__arrow-left {
+  max-width: 9px;
+  max-height: 16px;
+}
+
+.carousel .carousel__arrow-left{
   margin-top: 209px;
   margin-right: 70px;
 }
 
-.design__arrow-right {
+.carousel__arrow-right {
   width: 9px;
   height: 16px;
+}
+
+.carousel .carousel__arrow-right{
   margin-top: 209px;
 }
-.design__number {
+
+.carousel__number {
   margin-top: 420px;
   opacity: 0.7;
   font-family: 'Questrial', sans-serif;
   font-size: 18px;
   font-weight: 400;
   color: #2f2f2f;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .carousel__card {
+    max-width: 196px;
+    max-height: 263px;
+  }
+  .carousel__card .carousel__img{
+    max-width: 196px;
+    max-height: 264px;
+  }
+
+  .carousel__arrow-left {
+    width: 9px;
+    height: 16px;
+    margin-top: 209px;
+    margin-right: 70px;
+  }
+
 }

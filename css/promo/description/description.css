@@ -11,8 +11,8 @@
 
 .ingridients__img {
     margin-right: 12px;
-    width: 55px;
-    height: 55px;
+    max-width: 55px;
+    max-height: 55px;
 }
 
 .promo__box__text {
@@ -26,8 +26,8 @@
 }
 .delivery__img {
     margin-right: 16px;
-    width: 55px;
-    height: 55px;
+    max-width: 55px;
+    max-height: 55px;
 }
 
 @media (min-width: 768px) and (max-width: 1024px){

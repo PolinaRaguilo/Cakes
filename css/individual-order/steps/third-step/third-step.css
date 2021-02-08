@@ -1,12 +1,28 @@
 @import './third-step__cakes.css';
-@import './design-titles.css';
+@import './carousel-titles.css';
 @import './design__card.css';
 @import './choice.css';
-@import './third-step__btn-order.css';
-.third-step {
+.step__content_third {
   height: 752px !important;
 }
-.third-step__cakes__gallery {
+.carousel {
   display: flex;
   margin-top: -75px;
+}
+.btn__order {
+  width: 226px;
+  height: 51px;
+  margin-top: 30px;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+  .step__content_third {
+    height: 470px !important;
+  }
+  .carousel {
+    margin-top: -39px;
+  }
+  
 }

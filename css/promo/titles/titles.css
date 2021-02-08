@@ -1,8 +1,8 @@
 .promo__header {
-    margin: 0;
     font-family: 'Playfair Display', serif;
     margin-left: 75px;
-    padding-top: 160px;
+    padding-top: 164px;
+    margin-bottom: 0;
     font-size: 79px;
     line-height: 70px;
     font-weight: 700;
@@ -11,11 +11,9 @@
 }
 
 .promo__subtitle {
-    margin: 0;
+    margin: 31px 0 0 75px;
     font-family: 'Pacifico', cursive;
     font-size: 41px;
-    margin-left: 75px;
-    margin-top: 30px;
     line-height: 77px;
     font-weight: 400;
     letter-spacing: 0.075em;
