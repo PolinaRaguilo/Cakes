@@ -11,22 +11,12 @@
   box-shadow: 0px 6px 9.7px 0.3px rgba(0, 0, 0, 0.14);
 }
 
-.carousel__arrow-left {
-  max-width: 9px;
-  max-height: 16px;
-}
 
-.carousel .carousel__arrow-left{
+.carousel .arrow-left{
   margin-top: 209px;
   margin-right: 70px;
 }
-
-.carousel__arrow-right {
-  width: 9px;
-  height: 16px;
-}
-
-.carousel .carousel__arrow-right{
+.carousel .arrow-right{
   margin-top: 209px;
 }
 
@@ -41,20 +31,38 @@
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  .carousel__card {
-    max-width: 196px;
-    max-height: 263px;
-  }
-  .carousel__card .carousel__img{
-    max-width: 196px;
-    max-height: 264px;
+  .carousel__card,.carousel__card .carousel__img {
+    width: 196px;
+    height: 264px;
   }
 
-  .carousel__arrow-left {
-    width: 9px;
-    height: 16px;
-    margin-top: 209px;
-    margin-right: 70px;
+  .carousel .arrow-left{ 
+    margin-top: 121px;
+    margin-right: 44px;
   }
+
+  .carousel .arrow-left .fas{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+  }
+
+  .carousel .arrow-right{
+    margin-top: 121px;
+    margin-left: -27px;
+  }
+
+  .carousel .arrow-right .fas{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+  }
+
+  .carousel__number {
+    margin-top: 255px;
+    font-size: 12px;
+    margin-left: -32px;
+  }
+  
 
 }

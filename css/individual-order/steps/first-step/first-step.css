@@ -12,7 +12,7 @@
 }
 
 .description__content {
-  max-width: 280px;
+  width: 280px;
 }
 
 .description__wrapper .description__content{
@@ -119,7 +119,7 @@
     font-size: 10px !important;
   }
 
-  .arrow-left {
+  .arrow-left,.arrow-right {
     position: relative;
     width: 40px;
     height: 40px;
@@ -134,21 +134,10 @@
     margin-right: 42px;
   }
 
-  .arrow-left .fas{
+  .step__content_first .arrow-left .fas{
     position: absolute;
     top: 12px;
     left: 14px;
-  }
-
-  .arrow-right {
-    position: relative;
-    width: 40px;
-    height: 40px;
-    opacity: 0.6;
-    background-color: #ffffff;
-    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
-    border-radius: 50%;
-
   }
 
   .description__wrapper .arrow-right{
@@ -156,7 +145,7 @@
     margin-left: -48px;
   }
 
-  .arrow-right .fas{
+  .step__content_first .arrow-right .fas{
     position: absolute;
     top: 12px;
     left: 17px;

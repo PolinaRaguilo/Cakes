@@ -9,11 +9,15 @@
 }
 .card__size_big {
     position: relative;
-    max-width: 696px;
-    max-height: 653px;
+    width: 696px;
+    height: 653px;
 }
 
-
+/* .card__size_big .card__inner{
+    box-sizing: border-box;
+    width: 696px;
+    padding: 20px;
+} */
 .card__size_little{
     position: relative;
     max-width: 484px;
@@ -59,13 +63,12 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .card__size_big,   .card__size_big .card__img {
-        max-width: 419px;
-        max-height: 388px;
+        width: 419px;
+        height: 388px;
     }
-
     .card__size_little, .card__size_little .card__img {
-        max-width: 288px;
-        max-height: 184px;
+        width: 288px;
+        height: 184px;
     }
 
     .card__title {
