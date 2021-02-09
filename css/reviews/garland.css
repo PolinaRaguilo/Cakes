@@ -1,8 +1,18 @@
-.garland {
+.ornamentation__wrapper {
   display: flex;
   margin-top: 0;
 }
 
-.garland-left {
-  margin-right: 270px;
+.ornamentation__wrapper img:nth-child(2) {
+  margin-left: 270px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+  .ornamentation__wrapper img{
+    width: 315px;
+height: 76px;
+  }
+  .ornamentation__wrapper img:nth-child(2) {
+    margin-left: 138px;
+  }
 }

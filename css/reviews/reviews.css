@@ -6,7 +6,8 @@
   margin-top: -50px;
 }
 .reviews__header {
-  text-align: center;
+  margin: 0;
+  margin-left: 586px;
   font-family: 'Playfair Display', serif;
   font-size: 40px;
   font-weight: 700;
@@ -28,20 +29,17 @@
   font-style: italic;
 }
 
-.review__arrow-left {
-  width: 9px;
-  height: 16px;
+.review__wrapper .arrow-left{
   margin-top: 105px;
 }
-
-.review__arrow-right {
-  width: 9px;
-  height: 16px;
+.review__wrapper .arrow-right{
   margin-top: 105px;
   margin-left: 107px;
 }
 
+
 .review__number {
+  margin: 0;
   opacity: 0.7;
   font-family: 'Questrial', sans-serif;
   font-size: 18px;
@@ -49,4 +47,49 @@
   font-weight: 400;
   color: #f50049;
   margin-top: 230px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+  .reviews {
+    min-height: 370px;
+  }
+  .reviews__header {
+    font-size: 28px;
+    margin-left: 325px;
+  }
+  
+  .review__wrapper {
+    margin-top: 31px;
+    margin-left: 91px;
+  }
+  
+  .review__more {
+    font-size: 14px;
+    margin-left: 0;
+  }
+  
+  .review__wrapper .arrow-left{
+    margin-top: 81px;
+  }
+  .review__wrapper .arrow-right{
+    margin-top: 81px;
+    margin-left: 40px;
+  }
+   .arrow-right .fas{
+    position: absolute;
+    top: 12px;
+    left: 17px;
+  }
+   .arrow-left .fas{
+    position: absolute;
+    top: 12px;
+    left: 14px;
+  }
+  
+  .review__number {
+    font-size: 12px;
+    margin-top: 179px;
+    margin-left: -49px;
+  }
+  
 }
