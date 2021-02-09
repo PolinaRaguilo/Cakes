@@ -1,5 +1,5 @@
 @import './size/size.css';
-.second-step {
+.step__content_second {
   margin-top: 35px !important;
   display: flex;
 }

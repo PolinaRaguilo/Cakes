@@ -1,14 +1,17 @@
 @import './third-step__cakes.css';
 @import './carousel-titles.css';
 @import './carousel-card.css';
-@import './choice.css';
+@import './input__order.css';
+
 .step__content_third {
   height: 752px !important;
 }
+
 .carousel {
   display: flex;
   margin-top: -75px;
 }
+
 .btn__order {
   width: 226px;
   height: 51px;
@@ -17,12 +20,14 @@
 
 
 
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 768px) and (max-width: 1024px) {
   .step__content_third {
     height: 470px !important;
   }
-  .carousel {
-    margin-top: -39px;
+  .btn__order {
+    width: 160px;
+    height: 43px;
+    margin-top: 23px;
   }
-  
+
 }
