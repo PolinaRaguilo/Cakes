@@ -27,14 +27,17 @@
 .advantages__wrapper {
   display: flex;
 }
-.advantages__icon {
+
+.information__wrapper .icon{
   width: 61px;
   height: 61px;
   margin-right: 20px;
   margin-top: 8px;
 }
+
 .second-advantage__wrapper {
   margin-top: 342px;
   margin-left: 73px;
   margin-right: 88px;
 }
+

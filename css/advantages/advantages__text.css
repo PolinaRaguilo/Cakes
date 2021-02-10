@@ -1,10 +1,10 @@
-.advantages__information {
+.information__wrapper {
   display: flex;
   margin-top: 132px;
   margin-left: 125px;
 }
 
-.advantage__title {
+.text__wrapper .title {
   margin-top: 0;
   margin-bottom: 10px;
   font-family: 'Questrial', sans-serif;
@@ -15,7 +15,7 @@
 
 
 
-.advantage__text {
+.text__wrapper .article {
   font-family: 'Questrial', sans-serif;
   margin-top: 0;
   margin-bottom: 0;
@@ -25,7 +25,7 @@
   color: #000000;
 }
 
-.advantages__text__wrapper p:nth-child(2) {
+.text__wrapper p:nth-child(2) {
   margin-bottom: 40px;
 }
 

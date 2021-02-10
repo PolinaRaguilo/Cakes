@@ -1,39 +1,35 @@
-.food__wrapper {
+.pictures__wrapper {
   position: relative;
   margin-left: -25px;
 }
 
-
-.food__plants__wrapper {
-
-  display: flex;
+.pictures__wrapper .icon{
+  position: absolute;
 }
 
-.rasberry {
-  position: absolute;
+.pictures__wrapper .icon:nth-child(1){
+  
   width: 52px;
   height: 54px;
 }
 
-.leaf {
-  position: absolute;
+.pictures__wrapper .icon:nth-child(2){
   left: 98px;
   top: -100px;
 }
 
-.cherry {
+.pictures__wrapper .icon:nth-child(3){
   top: -60px;
   left: 294px;
-  position: absolute;
 }
 
-.berries-cake {
+.pictures__wrapper .icon:nth-child(5){
+  left: 389px;
+  top: 457px;
+}
+
+.pictures__wrapper .img{
   width: 495px;
   height: 523px;
 }
 
-.leafs {
-  position: absolute;
-  left: 389px;
-  top: 457px;
-}
