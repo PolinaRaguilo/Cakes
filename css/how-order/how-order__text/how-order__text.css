@@ -23,6 +23,10 @@
   color: #ffffff;
 }
 
+.step__text{
+  width: 445px;
+}
+
 .step__text .title {
   margin-top: 0;
   margin-bottom: 10px;
@@ -34,6 +38,7 @@
 }
 
 .step__text .article  {
+
   margin-top: 0;
   margin-bottom: 36px;
   font-family: 'Questrial', sans-serif;
@@ -45,4 +50,35 @@
 
 .step__wrapper {
   display: flex;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+  .how-order .text__wrapper {
+    margin-left: 330px;
+    padding-top: 40px;
+  }
+  
+  .how-order .text__wrapper .header {
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+  
+  .step__wrapper .number {
+    margin-right: 25px;
+    font-size: 36px;
+  }
+
+  .step__text{
+    width: 320px;
+  }
+  
+  .step__text .title {
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+  
+  .step__text .article  {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
 }

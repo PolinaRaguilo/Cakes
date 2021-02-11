@@ -13,3 +13,20 @@
   top: 263px;
   left: 470px;
 }
+
+@media (min-width: 768px) and (max-width: 1024px){
+  .label__img {
+    width: 87px;
+    height: 87px;
+    top: 120px;
+    left: 90px;
+  }
+  
+  .label__text {
+    width: 48px;
+    height: 14px;
+    top: 153px;
+    left: 110px;
+  }
+  
+}
