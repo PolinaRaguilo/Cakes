@@ -28,8 +28,7 @@
 .text__wrapper p:nth-child(2) {
   margin-bottom: 40px;
 }
-
-.second-advantage__header {
+.text__wrapper .header{
   margin-top: 0;
   margin-bottom: 29px;
   font-family: 'Playfair Display', serif;
@@ -37,8 +36,7 @@
   font-weight: 700;
   color: #2d2829;
 }
-
-.second-advantage__subtitle {
+.text__wrapper .subtitle{
   margin-top: 0;
   margin-bottom: 20px;
   font-family: 'Pacifico', cursive;
@@ -47,7 +45,7 @@
   color: #32313d;
 }
 
-.second-advantage__text {
+.text__wrapper .text{
   font-family: 'Questrial', sans-serif;
   font-size: 20px;
   line-height: 24px;

@@ -35,7 +35,7 @@
   margin-top: 8px;
 }
 
-.second-advantage__wrapper {
+.advantages .advantages__wrapper:last-child .text__wrapper{
   margin-top: 342px;
   margin-left: 73px;
   margin-right: 88px;

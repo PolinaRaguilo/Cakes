@@ -1,22 +1,22 @@
-.second-advantage__img__wrapper {
+.advantages .advantages__wrapper:last-child .pictures__wrapper {
   position: relative;
 }
 
-.second-advantage__dots__img {
+.advantages .advantages__wrapper:last-child .pictures__wrapper .picture:nth-child(1){
   margin-top: -73px;
   width: 768px;
   height: 802px;
   position: absolute;
 }
 
-.second-advantage__plate__img {
+.advantages .advantages__wrapper:last-child .pictures__wrapper .picture:nth-child(2){
   left: 103px;
   width: 627px;
   height: 627px;
   position: absolute;
 }
 
-.second-advantage__cake__img {
+.advantages .advantages__wrapper:last-child .pictures__wrapper .picture:nth-child(3) {
   top: 25px;
   left: 131px;
   position: absolute;
