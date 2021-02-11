@@ -1,9 +1,11 @@
 .information__wrapper {
-  display: flex;
+  width: 475px;
   margin-top: 132px;
   margin-left: 125px;
 }
-
+.information__inner{
+  display: flex;
+}
 .text__wrapper .title {
   margin-top: 0;
   margin-bottom: 10px;
@@ -46,9 +48,39 @@
 }
 
 .text__wrapper .text{
+  width: 455px;
   font-family: 'Questrial', sans-serif;
   font-size: 20px;
   line-height: 24px;
   font-weight: 400;
   color: #000000;
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  .information__wrapper {
+    width: 345px;
+    margin-top: 70px;
+    margin-left: 85px;
+  }
+  .text__wrapper .title {
+    font-size: 15px;
+  }  
+  .text__wrapper .article {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+  
+  .text__wrapper .header{
+    margin-bottom: 13px;
+    font-size: 28px;
+  }
+  .text__wrapper .subtitle{
+    margin-bottom: 13px;
+    font-size: 26px;
+  }
+  
+  .text__wrapper .text{
+    width: 320px;
+    font-size: 14px;
+    line-height: 1.2;
+  }
 }
