@@ -1,9 +1,9 @@
-.how-order__text {
+.how-order .text__wrapper {
   margin-left: 831px;
   padding-top: 128px;
 }
 
-.how-order__header {
+.how-order .text__wrapper .header {
   margin-top: 0;
   margin-bottom: 49px;
   font-family: 'Playfair Display', serif;
@@ -12,7 +12,7 @@
   color: #ffffff;
 }
 
-.how-order__step__number {
+.step__wrapper .number {
   margin-top: 0;
   margin-right: 20px;
   margin-bottom: 0;
@@ -23,7 +23,7 @@
   color: #ffffff;
 }
 
-.how-order__step__title {
+.step__text .title {
   margin-top: 0;
   margin-bottom: 10px;
   font-family: 'Questrial', sans-serif;
@@ -33,7 +33,7 @@
   color: #ffffff;
 }
 
-.how-order__step__body {
+.step__text .article  {
   margin-top: 0;
   margin-bottom: 36px;
   font-family: 'Questrial', sans-serif;
@@ -43,6 +43,6 @@
   color: #ffffff;
 }
 
-.how-order__step__wrapper {
+.step__wrapper {
   display: flex;
 }
