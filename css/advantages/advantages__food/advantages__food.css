@@ -38,6 +38,10 @@
     margin-left: 0px;
   }
 
+  .advantages .advantages__wrapper:last-child .pictures__wrapper{
+    margin-left: -100px;
+  }
+
   .pictures__wrapper .icon:nth-child(1) {
     width: 30px;
     height: 30px;

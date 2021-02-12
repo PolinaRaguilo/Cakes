@@ -1,11 +1,11 @@
-.contacts__social__wrapper {
+.socials {
     display: flex;
     position: relative;
 }
 
 
 
-.contacts__social{
+.social__wrapper{
     width: 63px;
 height: 63px;
 background-color: #ffffff;
@@ -13,19 +13,19 @@ border-radius:50%;
 }
 
 
-.contacts__inst{
+.socials .social__wrapper:nth-child(1) .icon{
     position: absolute;
     top:18px;
     left: 18px;
 }
 
-.contacts__vk{
+.socials .social__wrapper:nth-child(2) .icon{
     position: absolute;
     top:14px;
     left:102px;
 }
 
-.contacts__social__wrapper .contacts__social:first-child{
+.socials .social__wrapper:first-child{
     margin-right: 30px;
 }
 
