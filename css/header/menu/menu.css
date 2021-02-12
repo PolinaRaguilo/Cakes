@@ -34,13 +34,13 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    .menu__container {
+    header .menu__container {
         height: 60px;
         background-color: #ffffff;
         padding-top: 21px;
     }
 
-    .menu__list {
+    header .menu__list {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -76,11 +76,11 @@
         margin-bottom: 0;
     }
 
-    .menu_active {
+    header .menu_active {
         display: block;
     }
 
-    .menu__item {
+    header .menu__item {
         padding-top: 17px;
         width: 320px;
         height: 40px;

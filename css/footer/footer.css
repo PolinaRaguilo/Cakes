@@ -4,24 +4,26 @@ footer {
     background-color: #e8e8e8;
 }
 
-.footer__logo {
-    margin-top: 38px;
-}
-
-
 
 .footer__container {
     display: flex;
 }
 
-.footer__menu {
+.footer__container .logo {
+    margin-top: 38px;
+}
+
+
+
+
+.footer__container .menu {
     margin-top: 46px;
     margin-left: 162px;
 }
 
 
 
-.footer__line {
+footer .line {
     margin-top: 50px;
     margin-left: 73px;
     width: 1220px;
@@ -31,7 +33,7 @@ footer {
     background-color: #000000;
 }
 
-.footer__year {
+footer .year {
     margin-top: 18px;
     margin-bottom: 20px;
     text-align: center;
