@@ -5,27 +5,26 @@
 
 
 
-.social__wrapper{
+.social__wrapper {
     width: 63px;
-height: 63px;
-background-color: #ffffff;
-border-radius:50%;
+    height: 63px;
+    background-color: #ffffff;
+    border-radius: 50%;
 }
 
 
-.socials .social__wrapper:nth-child(1) .icon{
+.socials .social__wrapper:nth-child(1) .icon {
     position: absolute;
-    top:18px;
+    top: 18px;
     left: 18px;
 }
 
-.socials .social__wrapper:nth-child(2) .icon{
+.socials .social__wrapper:nth-child(2) .icon {
     position: absolute;
-    top:14px;
-    left:102px;
+    top: 14px;
+    left: 102px;
 }
 
-.socials .social__wrapper:first-child{
+.socials .social__wrapper:first-child {
     margin-right: 30px;
 }
-

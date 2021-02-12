@@ -9,6 +9,7 @@
 .contacts .inner__wrapper {
     display: flex;
 }
+
 .contacts .header {
     font-family: 'Playfair Display', serif;
     margin: 0 0 42px 0;
@@ -51,13 +52,97 @@
     margin-left: 82px;
 }
 
-.contacts__information .img{
+.contacts__information .img {
     position: absolute;
-    top:230px;
+    top: 230px;
     left: 435px;
 }
+
 .contacts__btn {
     margin-top: 80px;
     width: 180px;
     height: 51px;
+}
+
+.form__wrapper .input__textarea {
+    display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .contacts {
+        height: 550px;
+        padding-top: 49px;
+        padding-left: 47px;
+    }
+
+    .contacts .header {
+        margin: 0 0 15px 0;
+        font-size: 28px;
+    }
+
+    .contacts .subheader {
+        font-size: 22px;
+    }
+
+    .form__wrapper .title {
+        margin: 0 0 18px 0;
+        font-size: 14px;
+    }
+
+    .form .input {
+        width: 346px;
+        height: 50px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 3px;
+        opacity: unset;
+        border-bottom: 0px;
+        font-size: 14px;
+        margin-bottom: 10px;
+        padding-left: 11px;
+    }
+
+    .form .input:nth-child(3) {
+        display: none;
+    }
+
+    .form__wrapper .input__textarea {
+        font-family: 'Questrial', sans-serif;
+        font-size: 14px;
+        height: 118px;
+        width: 346px;
+        display: block;
+        resize: none;
+        border: none;
+        padding-top: 14px;
+        padding-left: 11px;
+    }
+
+    .form__wrapper .input__textarea:focus {
+        outline: none;
+    }
+
+    .contacts__information {
+        margin-left: 67px;
+    }
+
+    .contacts__information .text {
+        font-size: 14px;
+    }
+
+    .contacts__btn {
+        margin-top: 30px;
+        width: 160px;
+        height: 43px;
+    }
+
+    .contacts__information .img {
+        object-fit: cover;
+        object-position: left;
+        width: 440px;
+        height: 400px;
+        top: 200px;
+        left: 340px;
+    }
+
+
 }
