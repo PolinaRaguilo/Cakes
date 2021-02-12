@@ -16,3 +16,12 @@
     height: 19px;
     opacity: 0.4;
 }
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .footer__container .socials {
+        height: 20px;
+        transform: translate(-325px, 110px);
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+}

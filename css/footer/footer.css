@@ -44,3 +44,49 @@ footer .year {
     letter-spacing: 0.04em;
     color: #000000;
 }
+
+@media (min-width: 768px) and (max-width: 1024px){
+    footer {
+        width: 780px;
+        height: 140px;
+        background-color:  #898989;;
+    }
+    
+    .footer__container .logo {
+        margin-top: 35px;
+        margin-left: 20px;
+        font-size: 18px;
+        color: #ffffff;
+    }
+    
+    .footer__container .menu {
+        width: 200px;
+        margin-top: 38px;
+        margin-left: 50px;
+    }
+    .footer__container .menu .menu__item .menu__link{
+        font-size: 11px;
+        color: #ffffff;
+        margin-right: 0;
+        
+    }
+
+    .footer__container .menu .menu__item{
+        margin-right: 30px;
+    }
+    .footer__container .menu .menu__item:last-child{
+        margin-right: 0;
+    }
+
+    footer .line {
+        margin-top: 38px;
+        margin-left: 66px;
+        width: 600px;
+    }
+
+    footer .year {
+        text-align: unset;
+        margin-left: 285px;
+        margin-bottom: 0;
+    }
+}
