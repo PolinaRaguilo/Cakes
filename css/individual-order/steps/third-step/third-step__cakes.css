@@ -16,11 +16,11 @@
   margin-right: 22px;
 }
 
-.carousel .carousel__card:nth-child(2) {
+.carousel .card:nth-child(2) {
   margin-right: 41px;
 }
 
-.carousel .carousel__card:nth-child(3){
+.carousel .card:nth-child(3){
   margin-right: 71px;
 }
 @media (min-width: 768px) and (max-width: 1024px){
@@ -36,11 +36,11 @@
   margin-right: 22px;
 }
 
-.carousel .carousel__card:nth-child(2) {
+.carousel .card:nth-child(2) {
   margin-right: 41px;
 }
 
-.carousel .carousel__card:nth-child(3){
+.carousel .card:nth-child(3){
   margin-right: 43px;
 }
 }

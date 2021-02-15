@@ -49,10 +49,32 @@ body {
 }
 
 
+.section__title {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: #2d2829;
+    font-weight: 700;
+}
 
-@media (min-width: 768px) and (max-width: 1024px){
+.section__subtitle {
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    font-weight: 400;
+    color: #32313d;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
     .wrapper {
         max-width: 1024px;
     }
-    
+
+    .section__title {
+        font-size: 28px;
+    }
+
+    .section__subtitle{
+        font-size: 26px;
+    }
+
 }

@@ -10,22 +10,14 @@
   margin-left: 73px;
 }
 
-.about-us__header {
-  font-family: 'Playfair Display', serif;
+.about-us__wrapper .section__title {
   margin-bottom: 33px;
   margin-top: 0;
-  font-size: 40px;
-  font-weight: 700;
-  color: #2d2829;
 }
 
-.about-us__subtitle {
-  font-family: 'Pacifico', cursive;
+.about-us__wrapper .section__subtitle {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 35px;
-  font-weight: 400;
-  color: #32313d;
 }
 
 @media (min-width: 768px) and (max-width: 1024px){
@@ -37,12 +29,7 @@
     margin-left: 47px;
   }
   
-  .about-us__header {
+  .about-us__wrapper .section__title {
     margin: 13px 0;
-    font-size: 28px;
-  }
-  
-  .about-us__subtitle {
-    font-size: 26px;
   }
 }

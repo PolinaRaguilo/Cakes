@@ -1,4 +1,4 @@
-@import './cakes-gallery__title/cakes-gallery__title.css';
+
 @import './cards/card/card.css';
 
 .cakes-gallery {
@@ -41,6 +41,12 @@
     color: #9d6d7d;
 }
 
+.cakes-gallery .section__title {
+    line-height: 65px;
+    letter-spacing: 0.01em;
+}
+
+
 @media (min-width: 768px) and (max-width: 1024px) {
     .cakes-gallery {
         min-height: 893px;
@@ -57,5 +63,8 @@
 
     .fa-arrow-right:before {
         display: none;
+    }
+    .cakes-gallery .section__title {
+        line-height: 39px;
     }
 }

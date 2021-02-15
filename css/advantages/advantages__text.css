@@ -30,21 +30,15 @@
 .advantages__wrapper .text__wrapper p:nth-child(2) {
   margin-bottom: 40px;
 }
-.text__wrapper .header{
+.advantages__wrapper .text__wrapper .section__title{
   margin-top: 0;
   margin-bottom: 29px;
-  font-family: 'Playfair Display', serif;
-  font-size: 40px;
-  font-weight: 700;
-  color: #2d2829;
+  text-align: unset;
 }
-.text__wrapper .subtitle{
+.advantages__wrapper .text__wrapper  .section__subtitle{
   margin-top: 0;
   margin-bottom: 20px;
-  font-family: 'Pacifico', cursive;
-  font-size: 35px;
-  font-weight: 400;
-  color: #32313d;
+  text-align: unset;
 }
 
 .text__wrapper .text{
@@ -69,13 +63,11 @@
     line-height: 1.2;
   }
   
-  .text__wrapper .header{
+  .advantages__wrapper .text__wrapper .section__title{
     margin-bottom: 13px;
-    font-size: 28px;
   }
-  .text__wrapper .subtitle{
+  .advantages__wrapper .text__wrapper  .section__subtitle{
     margin-bottom: 13px;
-    font-size: 26px;
   }
   
   .text__wrapper .text{

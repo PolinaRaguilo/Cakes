@@ -2,9 +2,10 @@
     display: flex;
     margin-right: 72px;
 }
-
-.promo__box{
+.box{
     display: flex;
+}
+.promo__descr .box{
     margin-left: 75px;
     margin-top: 130px;
 }
@@ -31,7 +32,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px){
-    .promo__box{
+    .promo__descr .box{
         margin-left: 47px;
         margin-top: 147px;
     }

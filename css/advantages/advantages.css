@@ -6,40 +6,32 @@
   margin-top: 143px;
 }
 
-.advantages__header {
+.advantages .section__title {
   text-align: center;
   margin-top: 0;
   margin-bottom: 30px;
-  font-family: 'Playfair Display', serif;
-  font-size: 40px;
-  font-weight: 700;
-  color: #2d2829;
 }
 
-.advantages__subtitle {
+.advantages .section__subtitle {
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'Pacifico', cursive;
-  font-size: 35px;
-  font-weight: 400;
-  color: #32313d;
 }
 .advantages__wrapper {
   display: flex;
 }
 
-.information__inner .icon{
+.information__wrapper .box .icon{
   margin-right: 20px;
   margin-top: 8px;
 }
 
-.information__inner .icon:first-child{
+.information__wrapper .box  .icon:first-child{
   width: 61px;
   height: 61px;
 }
 
-.information__wrapper .information__inner:nth-child(2) .icon{
+.information__wrapper .box:nth-child(2) .icon{
   width: 80px;
   height: 50px;
 }
@@ -55,13 +47,8 @@
     margin-top: 74px;
   }
   
-  .advantages__header {
+  .advantages .section__title {
     margin-bottom: 10px;
-    font-size: 28px;
-  }
-  
-  .advantages__subtitle {
-    font-size: 26px;
   }
   .information__inner .icon{
     margin-right: 20px;
