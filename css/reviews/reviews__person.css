@@ -5,7 +5,7 @@
   height: 209px;
 }
 
-.person__name {
+.person__header {
   font-family: 'Questrial', sans-serif;
   margin: 0;
   font-size: 27px;
@@ -13,7 +13,7 @@
   color: #2d2829;
 }
 
-.person__job {
+.person__subheader {
   font-family: 'Questrial', sans-serif;
   margin-top: 8px;
   margin-bottom: 0;
@@ -40,11 +40,11 @@
     margin-top: 56px;
   }
 
-  .person__name {
+  .person__header {
     font-size: 16px;
   }
 
-  .person__job {
+  .person__subheader {
     margin-top: 2px;
     font-size: 14px;
   }
