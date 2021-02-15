@@ -21,18 +21,18 @@
 <body>
     <div class="wrapper">
         <header>
-            <div class="menu__container">
+            <div class="header__container">
                 <div class="logo">
                     <a href="#" class="logo__link">Cakes</a>
                 </div>
                 <nav class="menu">
                     <ul class="menu__list">
-                        <li class="menu__item"><a href="#" class="menu__link">Наши торты</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Индивидуальный заказ</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Как заказать</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+                        <li class="menu__item"><a href="#cakes-gallery" class="menu__link">Наши торты</a></li>
+                        <li class="menu__item"><a href="#individual-order" class="menu__link">Индивидуальный заказ</a></li>
+                        <li class="menu__item"><a href="#reviews" class="menu__link">Отзывы</a></li>
+                        <li class="menu__item"><a href="#about-us" class="menu__link">О нас</a></li>
+                        <li class="menu__item"><a href="#how-order" class="menu__link">Как заказать</a></li>
+                        <li class="menu__item"><a href="#contacts" class="menu__link">Контакты</a></li>
                     </ul>
                     <div class="hamburger">
                         <span></span>
@@ -82,7 +82,7 @@
                     class="sweets-strawberry2__img">
 
         </section>
-        <section class="cakes-gallery">
+        <section class="cakes-gallery" id="cakes-gallery">
             <h3 class="section__title">
                 Наши торты
             </h3>
@@ -165,7 +165,7 @@
                 </div>
             </div>
         </section>
-        <section class="individual-order">
+        <section class="individual-order" id="individual-order">
 
             <div class="titles__wrapper ">
                 <h2 class="section__title">Индивидуальный заказ</h2>
@@ -276,28 +276,29 @@
                 </div>
                 <div class="choice">
                     <h3 class="choice__header">Ваш выбор</h3>
+                    <form action="submit" class="form">
+                        <div class="input__inner">
+                            <label for="filling" class="input__label">Начинка</label>
+                            <input name="taste" id="filling" type="text" class="input__item" placeholder="Шоколадный ганаш">
+                            
+                        </div>
+                        <div class="input__inner">
+                            <label for="size" class="input__label">Размер</label>
+                            <input name="size" id="size" type="text" class="input__item" placeholder="2 кг">
+                        </div>
+                        <div class="input__inner">
+                            <label for="decor" class="input__label">Оформление</label>
+                            <input name="decor" id="decor" type="text" class="input__item" placeholder="Маршмэллоу">
+                        </div>
+                        <button type="submit" class="btn btn__order">заказать торт</button>
+                    </form>
                     <div class="inputs__wrapper">
-                        <div class="input__item">
-                            <h4 class="input__title">Начинка</h4>
-                            <h5 class="input__name">Шоколадный ганаш</h5>
-                            <div class="input__span"></div>
-                        </div>
-                        <div class="input__item">
-                            <h4 class="input__title">Размер</h4>
-                            <h5 class="input__name">2 кг</h5>
-                            <div class="input__span"></div>
-                        </div>
-                        <div class="input__item">
-                            <h4 class="input__title">Оформление</h4>
-                            <h5 class="input__name">Маршмэллоу</h5>
-                            <div class="input__span"></div>
-                        </div>
-                        <button class="btn btn__order">заказать торт</button>
+                        
                     </div>
                 </div>
             </div>
         </section>
-        <section class="reviews">
+        <section class="reviews" id="reviews">
             <div class="ornamentation__wrapper">
                 <img src="./css/reviews/left_garland.png" alt="garland-left">
                 <img src="./css/reviews/right_garland.png" alt="garland-right">
@@ -317,7 +318,7 @@
                 <h6 class="review__number">1/26</h6>
             </div>
         </section>
-        <section class="about-us">
+        <section class="about-us" id="about-us">
             <div class="about-us__wrapper">
                 <h2 class="section__title">О нас</h2>
                 <h3 class="section__subtitle">О кондитере</h3>
@@ -394,51 +395,50 @@
                 </div>
             </div>
         </section>
-        <section class="how-order">
+        <section class="how-order" id="how-order">
                     <img src="./css/how-order/how-order__label/label.png" alt="label" class="label__img">
                 <img src="./css/how-order/how-order__label/label_logo.png"
                         alt="label-logo" class="label__text">
             <div class="text__wrapper">
-                <h3 class="header">Как заказать</h3>
-                <div class="step__wrapper">
-                    <p class="number">1</p>
-                    <div class="step__text">
-                        <p class="title">Срок заказа</p>
-                        <p class="article">Размещать заказы желательно за 2-3 дня.  На выходные заказы
+                <h3 class="section__title">Как заказать</h3>
+                <div class="text__inner">
+                    <p class="step__number">1</p>
+                    <div class="article__wrapper">
+                        <p class="step__title">Срок заказа</p>
+                        <p class="step__article">Размещать заказы желательно за 2-3 дня.  На выходные заказы
                             лучше размещать  минимум за неделю.</p>
                     </div>
                 </div>
-                <div class="step__wrapper">
-                    <p class="number">2</p>
-                    <div class="step__text">
-                        <p class="title">Доставка по городу</p>
-                        <p class="article">Доставка в пределах города 200 рублей , при  заказе на
+                <div class="text__inner">
+                    <p class="step__number">2</p>
+                    <div class="article__wrapper">
+                        <p class="step__title">Доставка по городу</p>
+                        <p class="step__article">Доставка в пределах города 200 рублей , при  заказе на
                             сумму
                             более 2000 доставка бесплатно.</p>
                     </div>
                 </div>
-                <div class="step__wrapper">
-                    <p class="number">3</p>
-                    <div class="step__text">
-                        <p class="title">Доставка за городом</p>
-                        <p class="article">Доставка за пределами города рассчитывается индивидуально.
+                <div class="text__inner">
+                    <p class="step__number">3</p>
+                    <div class="article__wrapper">
+                        <p class="step__title">Доставка за городом</p>
+                        <p class="step__article">Доставка за пределами города рассчитывается индивидуально.
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="contacts">
+        <section class="contacts" id="contacts">
             <h2 class="section__title">Контакты</h2>
             <h3 class="section__subtitle">Остались вопросы?</h3>
             <div class="inner__wrapper">
                 <div class="form__wrapper">
                     <p class="title">Заполните форму ниже и наш кондитер свяжется с Вами</p>
                     <form action="submit" class="form">
-                        <input type="text" class="input" placeholder="Ваше имя">
-                        <input type="text" class="input" placeholder="Email  адрес">
-                        <input type="text" class="input" placeholder="Ваш вопрос">
-                        <textarea name="Email"  cols="30" rows="10" class="input__textarea" placeholder="Ваш вопрос"></textarea>
-                        <button class="btn contacts__btn">Отправить</button>
+                        <input name="firstName" type="text" class="input" placeholder="Ваше имя">
+                        <input name="email" type="text" class="input" placeholder="Email  адрес">
+                        <textarea name="question"  cols="30" rows="10" class="input__textarea" placeholder="Ваш вопрос"></textarea>
+                        <button type="submit" class="btn contacts__btn">Отправить</button>
                     </form>
                 </div>
                 <div class="contacts__information">
@@ -458,19 +458,19 @@
         <footer>
             <div class="footer__container">
                 
-                    <a href="#" class="logo ">Cakes</a>
+                    <a href="#" class="logo__link ">Cakes</a>
                 
                 <div class="menu ">
                     <ul class="menu__list ">
-                        <li class="menu__item"><a href="#" class="menu__link">Наши торты</a>
+                        <li class="menu__item"><a href="#cakes-gallery" class="menu__link">Наши торты</a>
                         </li>
-                        <li class="menu__item"><a href="#" class="menu__link">Индивидуальный
+                        <li class="menu__item"><a href="#individual-order" class="menu__link">Индивидуальный
                                 заказ</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Как заказать</a>
+                        <li class="menu__item"><a href="#reviews" class="menu__link">Отзывы</a></li>
+                        <li class="menu__item"><a href="#about-us" class="menu__link">О нас</a></li>
+                        <li class="menu__item"><a href="#how-order" class="menu__link">Как заказать</a>
                         </li>
-                        <li class="menu__item"><a href="#" class="menu__link">Контакты</a>
+                        <li class="menu__item"><a href="#contacts" class="menu__link">Контакты</a>
                         </li>
                     </ul>
                 </div>

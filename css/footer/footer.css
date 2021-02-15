@@ -9,7 +9,7 @@ footer {
     display: flex;
 }
 
-.footer__container .logo {
+.footer__container .logo__link {
     margin-top: 38px;
 }
 
@@ -52,7 +52,7 @@ footer .year {
         background-color:  #898989;;
     }
     
-    .footer__container .logo {
+    .footer__container .logo__link {
         margin-top: 35px;
         margin-left: 20px;
         font-size: 18px;
@@ -79,13 +79,14 @@ footer .year {
     }
 
     footer .line {
-        margin-top: 38px;
+        margin-top: 25px;
         margin-left: 66px;
         width: 600px;
     }
 
     footer .year {
         text-align: unset;
+        margin-top: 12px;
         margin-left: 285px;
         margin-bottom: 0;
     }

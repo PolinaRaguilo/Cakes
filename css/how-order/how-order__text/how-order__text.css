@@ -3,16 +3,13 @@
   padding-top: 128px;
 }
 
-.how-order .text__wrapper .header {
+.how-order .text__wrapper .section__title {
   margin-top: 0;
   margin-bottom: 49px;
-  font-family: 'Playfair Display', serif;
-  font-size: 40px;
-  font-weight: 700;
   color: #ffffff;
 }
 
-.step__wrapper .number {
+.text__inner .step__number {
   margin-top: 0;
   margin-right: 20px;
   margin-bottom: 0;
@@ -23,11 +20,11 @@
   color: #ffffff;
 }
 
-.step__text{
+.article__wrapper{
   width: 445px;
 }
 
-.step__text .title {
+.text__inner .article__wrapper .step__title {
   margin-top: 0;
   margin-bottom: 10px;
   font-family: 'Questrial', sans-serif;
@@ -37,7 +34,7 @@
   color: #ffffff;
 }
 
-.step__text .article  {
+.article__wrapper .step__article  {
 
   margin-top: 0;
   margin-bottom: 36px;
@@ -48,7 +45,7 @@
   color: #ffffff;
 }
 
-.step__wrapper {
+.text__inner {
   display: flex;
 }
 
@@ -58,26 +55,25 @@
     padding-top: 40px;
   }
   
-  .how-order .text__wrapper .header {
+  .how-order .text__wrapper .section__title {
     margin-bottom: 30px;
-    font-size: 28px;
   }
   
-  .step__wrapper .number {
+  .text__inner .step__number {
     margin-right: 25px;
     font-size: 36px;
   }
 
-  .step__text{
+  .text__inner .article__wrapper{
     width: 320px;
   }
   
-  .step__text .title {
+  .text__inner .article__wrapper .step__title {
     margin-bottom: 5px;
     font-size: 15px;
   }
   
-  .step__text .article  {
+  .text__inner .article__wrapper .step__article  {
     font-size: 14px;
     margin-bottom: 30px;
   }
