@@ -14,10 +14,17 @@ a {
     background-color: #fbebea;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
     .header__container {
         height: 60px;
         background-color: #ffffff;
         padding-top: 21px;
+    }
+}
+
+@media(max-width: 767px){
+    .header__container {
+        height: 40px;
+        padding-top: 14px;
     }
 }

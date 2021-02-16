@@ -5,6 +5,7 @@
 
 .size__wrapper {
   display: flex;
+  align-items: baseline;
   min-width: 870px;
   margin-top: 140px;
   margin-right: 188px;

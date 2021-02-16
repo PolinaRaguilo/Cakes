@@ -2,7 +2,6 @@
   width: 173px;
   height: 174px;
   margin-left: 64px;
-  padding-top: 28px;
   position: relative;
 }
 
@@ -12,12 +11,12 @@
 
 .size__in-5kg {
   position: absolute;
-  top: 60px;
+  top: 35px;
   left: 30px;
 }
 
 .size__label__5kg {
-  top: 100px;
+  top: 77px;
   left: 72px;
 }
 
@@ -26,7 +25,6 @@
     width: 120px;
     height: 121px;
     margin-left: 35px;
-    padding-top: 19px;
   }
   
   .size__5kg__img {
@@ -37,12 +35,12 @@
   .size__in-5kg {
     width: 77px;
     height: 77px;
-    top: 41px;
+    top: 23px;
     left: 23px;
   }
   
   .size__label__5kg {
-    top: 70px;
+    top: 55px;
     left: 50px;
   }
 }

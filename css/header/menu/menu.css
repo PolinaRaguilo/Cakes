@@ -26,7 +26,7 @@
     margin-right: 0;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
     
 
     header .menu__list {
@@ -90,5 +90,26 @@
         height: 40px;
         background-color: #e7e7e7;
         box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    }
+}
+@media (max-width: 767px) {
+    header .menu__list {
+        width: 100%;
+        top: 54px;
+    }
+    .hamburger {
+        float: right;
+        left: 92%;
+        bottom: 13px;
+    }
+
+    .hamburger span {
+        width: 18px;
+    }
+    header .menu__item {
+        width: 100%;
+    }
+    header .menu__item .menu__link{
+        font-size: 12px;
     }
 }

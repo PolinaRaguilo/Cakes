@@ -21,7 +21,7 @@
     color: #32313d;
 }
 
-@media (min-width: 768px) and (max-width: 1024px){
+@media  (max-width: 1024px){
     .promo__header {
         margin-left: 46px;
         padding-top: 112px;
@@ -33,6 +33,23 @@
         font-size: 36px;
         margin-left: 46px;
         margin-top: 29px;;
+    }
+    
+}
+
+@media (max-width: 767px){
+    .promo__header {
+        text-align: center;
+        margin-left: unset;
+        padding-top: 134px;
+        font-size: 40px;
+        line-height: 36px;
+    }
+    
+    .promo__subtitle {
+        font-size: 22px;
+        margin-left: 94px;
+        margin-top: -7px;
     }
     
 }

@@ -1,12 +1,11 @@
 .size__1kg {
   width: 130px;
   height: 110px;
-  padding-top: 92px;
   position: relative;
 }
 
 .size__label__1kg {
-  top: 130px;
+  top: 45px;
   left: 40px;
 }
 
@@ -14,7 +13,6 @@
   .size__1kg {
     width: 77px;
     height: 77px;
-    padding-top: 64px;
   }
 
   .size__1kg__img {
@@ -23,7 +21,7 @@
   }
 
   .size__label__1kg {
-    top: 95px;
+    top: 30px;
     left: 30px;
   }
 
