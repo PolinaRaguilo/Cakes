@@ -9,9 +9,10 @@
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    .classic-card__footer-text {
+    .card__footer .footer__text {
         font-size: 12px;
         bottom: 20px;
-        margin-right: 72px
+        margin-right: 20px;
+        margin-bottom: 10px;
     }
 }
