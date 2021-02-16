@@ -49,6 +49,7 @@
     .promo__descr {
         display: block;
         margin-right: 61px;
+        transform: translate(0px, -105px);
     }
     .promo__descr .box{
         width: 250px;

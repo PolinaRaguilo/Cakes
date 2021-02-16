@@ -47,7 +47,7 @@
 }
 
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media  (max-width: 1024px) {
     .cakes-gallery {
         min-height: 893px;
         padding-left: 20px;
@@ -68,3 +68,28 @@
         line-height: 39px;
     }
 }
+
+@media  (max-width: 767px) {
+    .cakes-gallery {
+        min-height: 852px;
+    }
+    .cakes-gallery__inner {
+        display: unset;
+    }
+
+    .cakes-gallery__wrapper {
+        margin-top: 32px;
+    }
+    .cakes-gallery__wrapper .cakes-gallery__inner:nth-child(2) {
+        margin-top: unset;
+    }
+
+    .cakes-gallery .section__title {
+        text-align: center;
+        line-height: 65px;
+        margin-bottom: 0;
+    }
+    .cakes-gallery__inner:nth-child(1) .cakes-gallery__wrapper_little {
+        margin-left: unset;
+    }
+}   

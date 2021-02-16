@@ -15,5 +15,6 @@
 @media (max-width: 767px){
     .promo__btn {
         margin-top: 43px;
+        transform: translate(20px, 90px)
     }
 }

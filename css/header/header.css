@@ -21,7 +21,6 @@ a {
         padding-top: 21px;
     }
 }
-
 @media(max-width: 767px){
     .header__container {
         height: 40px;
