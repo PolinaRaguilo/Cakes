@@ -11,9 +11,20 @@
   margin: 16px;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media  (max-width: 1024px) {
   .individual-order .titles__wrapper .section__subtitle{
     margin-top: 11px;
   }
 
+}
+@media  (max-width: 767px) {
+  .individual-order .titles__wrapper .section__subtitle{
+    margin-top: 15px;
+    margin-left: 33px;
+  }
+  .individual-order  .titles__wrapper .section__title{
+    width: 210px;
+    margin: 0 auto;
+  }
+  
 }

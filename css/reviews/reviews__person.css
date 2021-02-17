@@ -27,7 +27,7 @@
   font-size: 18.5px;
   line-height: 24px;
   font-weight: 400;
-  width: 370px;
+  width: 368px;
   color: #2d2829;
 }
 
@@ -50,7 +50,7 @@
   }
 
   .person__review {
-    width: 260px;
+    width: 270px;
     font-size: 14px;
   }
 }

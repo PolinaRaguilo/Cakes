@@ -13,7 +13,11 @@
 .step .step__title {
   padding-top: 44px;
   margin-left: 83px;
-  max-width: 130px;
+  max-width: 180px;
+}
+
+.step__content_first .step__title{
+  max-width: 100px;
 }
 
 .step__number {
@@ -36,7 +40,9 @@
   color: #f50049;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+
+
+@media  (max-width: 1024px) {
   .step {
     margin: 31px 20px 31px 20px;
     width: 728px;
@@ -44,8 +50,15 @@
   }
 
  .step .step__title {
+   padding-top: unset;
     margin-left: 45px;
-    width: 85px;
+    width: 121px;
+  }
+  .individual-order .step:last-child .step__title{
+    padding-top: 40px;
+  }
+  .step__content_first .step__title{
+    max-width: 100px;
   }
 
   .step .step__number {
@@ -55,5 +68,28 @@
 
   .step .step__name {
     font-size: 18px;
+  }
+}
+
+@media  (max-width: 767px) {
+  .step {
+    margin: 19px 20px 10px 20px;
+    width: 280px;
+    height: 430px;
+  }
+
+ .step__content_first .step__title {
+   display: inline;
+    margin-left: 19px;
+    padding-top: 18px;
+  }
+
+  .step .step__number {
+    padding-bottom: unset;
+    font-size: 30px;
+  }
+
+  .step .step__name {
+    font-size: 16px;
   }
 }
