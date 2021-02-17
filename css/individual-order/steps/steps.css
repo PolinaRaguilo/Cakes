@@ -78,8 +78,8 @@
     height: 430px;
   }
 
- .step__content_first .step__title {
-   display: inline;
+ .step .step__title {
+    display: inline;
     margin-left: 19px;
     padding-top: 18px;
   }

@@ -14,7 +14,7 @@
   margin-left: 20px;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .size__2kg {
     width: 107px;
     height: 107px;
@@ -35,4 +35,11 @@
     width: 107px;
     height: 107px;
   }
+}
+
+@media (max-width: 767px) {
+  .size__2kg {
+    display: none;
+  }
+
 }

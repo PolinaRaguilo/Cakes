@@ -20,7 +20,7 @@
   left: 72px;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media  (max-width: 1024px) {
   .size__5kg {
     width: 120px;
     height: 121px;
@@ -43,4 +43,11 @@
     top: 55px;
     left: 50px;
   }
+}
+
+@media (max-width: 767px) {
+  .size__5kg {
+    display: none;
+  }
+
 }
