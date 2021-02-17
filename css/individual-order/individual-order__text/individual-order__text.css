@@ -18,13 +18,17 @@
 
 }
 @media  (max-width: 767px) {
+  .titles__wrapper {
+    text-align: unset;
+  }
   .individual-order .titles__wrapper .section__subtitle{
     margin-top: 15px;
     margin-left: 33px;
   }
   .individual-order  .titles__wrapper .section__title{
     width: 210px;
-    margin: 0 auto;
+    margin-left: 46px;
+    text-align: center;
   }
   
 }

@@ -23,7 +23,7 @@
 .carousel .card:nth-child(3){
   margin-right: 71px;
 }
-@media (min-width: 768px) and (max-width: 1024px){
+@media  (max-width: 1024px){
 
 .carousel__img_semitransparent {
   max-width: 119px;
@@ -43,4 +43,14 @@
 .carousel .card:nth-child(3){
   margin-right: 43px;
 }
+}
+
+@media  (max-width: 767px){
+
+  .carousel__img_semitransparent {
+    display: none;
+  }
+  .carousel .card:nth-child(2) {
+    display: none;
+  }
 }

@@ -20,7 +20,7 @@
 
 
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media  (max-width: 1024px) {
   .step__content_third {
     height: 470px !important;
   }
@@ -30,4 +30,15 @@
     margin-top: 23px;
   }
 
+}
+
+@media  (max-width: 767px) {
+  .step__content_third {
+    height: 800px !important;
+  }
+  .btn__order {
+    width: 160px;
+    height: 43px;
+    margin-top: 23px;
+  }
 }
