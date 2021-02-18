@@ -18,7 +18,9 @@
   margin-top: 30px;
 }
 
-
+.carousel .card .step__btn_first{
+  display: none;
+}
 
 @media  (max-width: 1024px) {
   .step__content_third {
@@ -29,16 +31,20 @@
     height: 43px;
     margin-top: 23px;
   }
-
 }
 
 @media  (max-width: 767px) {
   .step__content_third {
     height: 800px !important;
   }
+  .carousel .card .step__btn_first{
+    display: block;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
   .btn__order {
-    width: 160px;
-    height: 43px;
-    margin-top: 23px;
+    width: 226px;
+    height: 51px;
+    margin-top: 30px;
   }
 }

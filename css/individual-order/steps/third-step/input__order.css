@@ -58,7 +58,7 @@
   margin-right: 26px;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media  (max-width: 1024px) {
   .choice {
     margin-top: 36px;
     margin-left: 45px;
@@ -69,18 +69,22 @@
   }
 
   .choice .form{
+    display: block;
+    text-align: center;
     margin-top: 13px;
   }
 
   .input__label {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .choice .form .input__inner .input__item::placeholder {
-    font-size: 12px;
+    font-size: 14px;
   }
   .choice .form .input__inner .input__item  {
+    margin: 0 auto;
     text-align: center;
+    
     position: relative;
     width: 160px;
     height: 30px;
@@ -102,5 +106,49 @@
 
   .choice .form .input__inner:nth-child(3) {
     margin-right: 42px;
+  }
+}
+@media  (max-width: 767px) {
+  .choice {
+    margin-top: 210px;
+    margin-left: 18px;
+  }
+
+  .choice__header {
+    font-size: 22px;
+  }
+
+  .choice .form{
+    margin-top: 14px;
+  }
+
+  .input__label {
+    font-size: 18px;
+  }
+
+  .choice .form .input__inner .input__item::placeholder {
+    font-size: 12px;
+  }
+  .choice .form .input__inner .input__item  {
+    text-align: center;
+    width: 243px;
+    height: 30px;
+    margin-top: 6px;
+
+  }
+
+
+  .choice .form .input__inner:nth-child(2) .input__item{
+    width: 243px;
+    height: 30px;
+  }
+
+  .choice .form .input__inner {
+    margin-top: 12px;
+    margin-right: 23px;
+  }
+
+  .choice .form .input__inner:nth-child(3) {
+    margin-right: 0px;
   }
 }

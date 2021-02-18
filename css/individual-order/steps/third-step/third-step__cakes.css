@@ -46,6 +46,15 @@
 }
 
 @media  (max-width: 767px){
+  .carousel .card:nth-child(3){
+    margin-top: 90px;
+    margin-right: unset;
+    margin-left: 56px;
+  }
+  .carousel .card .dots__wrapper .dot:nth-child(5) {
+    width: 4px;
+    height: 4px;
+  }
 
   .carousel__img_semitransparent {
     display: none;
