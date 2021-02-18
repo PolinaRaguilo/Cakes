@@ -24,7 +24,7 @@
   height: 577px;
 }
 
-@media (min-width: 768px) and (max-width: 1024px){
+@media  (max-width: 1024px){
 
   .advantages .advantages__wrapper:last-child .pictures__wrapper .picture:nth-child(1){
     width: 418px;

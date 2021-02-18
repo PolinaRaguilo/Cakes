@@ -49,7 +49,34 @@
   font-weight: 400;
   color: #000000;
 }
-@media (min-width: 768px) and (max-width: 1024px){
+@media  (max-width: 1024px){
+  .information__wrapper {
+    width: 345px;
+    margin-top: 70px;
+    margin-left: 85px;
+  }
+  .text__wrapper .title {
+    font-size: 15px;
+  }  
+  .text__wrapper .article {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+  
+  .advantages__wrapper .text__wrapper .section__title{
+    margin-bottom: 13px;
+  }
+  .advantages__wrapper .text__wrapper  .section__subtitle{
+    margin-bottom: 13px;
+  }
+  
+  .text__wrapper .text{
+    width: 320px;
+    font-size: 14px;
+    line-height: 1.2;
+  }
+}
+@media  (max-width: 767px){
   .information__wrapper {
     width: 345px;
     margin-top: 70px;

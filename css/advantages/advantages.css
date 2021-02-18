@@ -42,7 +42,7 @@
   margin-right: 88px;
 }
 
-@media (min-width: 768px) and (max-width: 1024px){
+@media  (max-width: 1024px){
   .advantages {
     margin-top: 74px;
   }
@@ -69,4 +69,13 @@
     margin-top: 77px;
     margin-left: 47px;
   }
+}
+
+@media  (max-width: 767px){
+  .advantages {
+    margin-top: 49px;
+  }
+  .advantages .advantages__wrapper:nth-child(3) .pictures__wrapper{
+    display: none;
+  } 
 }

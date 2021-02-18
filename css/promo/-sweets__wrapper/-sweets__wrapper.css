@@ -47,18 +47,18 @@
 }
 
 @media  (max-width: 767px) {
-
-    /* .sweets-cake__img{
+    /* доделай */
+    .sweets-cake__img{
         display: none;
-    } */
-    .sweets-cake__img {
+    }
+    .promo__cake__img{
+        height:200px;
+        background-image: url(./promo_cake1.png);
+        background-position: center center;
+        position: absolute;
+        left: 0;
+        top: 0;
         width: 100%;
-        height: auto;
-        top: -100px;
-        clip: rect(auto, 220px, auto, auto);
-        transform: rotate(-90deg);
-        top: -207px;
-        left: 0; 
     }
 
     .sweets {

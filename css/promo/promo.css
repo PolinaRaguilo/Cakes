@@ -18,6 +18,7 @@
 }
 @media  (max-width: 767px) {
     .promo {
+        position: relative;
         min-height: 440px;
     }
     .promo__title{
