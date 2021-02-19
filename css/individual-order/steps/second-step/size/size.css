@@ -6,7 +6,6 @@
 .size__wrapper {
   display: flex;
   align-items: baseline;
-  min-width: 870px;
   margin-top: 140px;
   margin-right: 156px;
   margin-left: 15px;
@@ -39,7 +38,7 @@
   .size__wrapper {
     margin-top: 76px;
     margin-left: -45px;
-    margin-right: 100px;
+    margin-right: 70px;
   }
 
   .size__descr {

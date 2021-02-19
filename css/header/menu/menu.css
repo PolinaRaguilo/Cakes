@@ -80,6 +80,8 @@
 
     header .menu_active {
         display: block;
+        position: absolute;
+        z-index: 6;
     }
 
 
