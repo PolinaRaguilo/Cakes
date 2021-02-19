@@ -50,19 +50,19 @@
 
   .advantages .advantages__wrapper:last-child .pictures__wrapper .picture:nth-child(1){
     margin-top: -17px;
-    width: 100%;
+    width: 320px;
     left: -10px;
   }
   
   .advantages .advantages__wrapper:last-child .pictures__wrapper .picture:nth-child(2){
     left: 0px;
     top: 0px;
-    width: 100%;
+    width: 320px;
   }
   
   .advantages .advantages__wrapper:last-child .pictures__wrapper .picture:nth-child(3) {
     top: 5px;
     left: 5px;
-    width: 100%;
+    width: 320px;
   }
 }

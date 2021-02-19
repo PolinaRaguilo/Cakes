@@ -9,7 +9,7 @@
   position: relative;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media  (max-width: 1024px) {
   .how-order {
     margin-top: 95px;
     width: 768px;
@@ -18,5 +18,16 @@
     background-position: 350% 200%, left 0%;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+}
+
+@media  (max-width: 767px) {
+  .how-order {
+    margin-top: 130px;
+    width: 320px;
+    height: 540px;
+    background-color: #e3353d;
+    background-position:  145% 100%, -210px bottom;;
+    background-size: 86%;
   }
 }
