@@ -93,7 +93,7 @@ body {
     .section__subtitle{
         font-size: 22px;
     }
-    .advantages, .how-order, .contacts, footer{
+ .contacts, footer{
         display: none;
     }
 }

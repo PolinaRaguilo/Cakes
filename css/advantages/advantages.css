@@ -66,8 +66,8 @@
   }
   
   .advantages .advantages__wrapper:last-child .text__wrapper{
-    margin-top: 77px;
-    margin-left: 47px;
+    margin-top: 40px;
+    margin-left: 21px;
   }
 }
 
@@ -75,7 +75,14 @@
   .advantages {
     margin-top: 49px;
   }
+  .advantages__wrapper{
+    display: block;
+  }
   .advantages .advantages__wrapper:nth-child(3) .pictures__wrapper{
     display: none;
   } 
+  .information__wrapper .box:nth-child(2) .icon{
+    margin-top: 0px;
+  }
+
 }

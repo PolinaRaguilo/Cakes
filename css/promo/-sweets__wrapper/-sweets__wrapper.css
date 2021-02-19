@@ -47,19 +47,22 @@
 
 }
 
-@media  (max-width: 767px) {
-    /* доделай */
-    .sweets-cake__img{
+@media (max-width: 767px) {
+    .sweets-cake__img {
         display: none;
     }
-    .promo__cake__img{
-        height:200px;
-        background-image: url(./promo_cake1.png);
+
+    .promo__cake__img {
+        height: 215px;
+        background-image: url(./background_cake_mobile.png);
         background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
         position: absolute;
         left: 0;
         top: 0;
         width: 100%;
+        z-index: 3;
     }
 
     .sweets {
