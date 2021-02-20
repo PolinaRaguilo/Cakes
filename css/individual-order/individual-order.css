@@ -17,6 +17,7 @@
 
 @media (max-width: 767px){
   .individual-order {
+    width: 100%;
     min-height: 1784px;
     margin-top: 50px;
   }

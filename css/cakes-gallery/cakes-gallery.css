@@ -71,6 +71,7 @@
 
 @media  (max-width: 767px) {
     .cakes-gallery {
+        width: 100%;
         min-height: 852px;
     }
     .cakes-gallery__inner {
