@@ -26,9 +26,10 @@
     color: #000000;
 }
 
-.contacts .inner__wrapper .form .input, .form .input__textarea  {
+.contacts .inner__wrapper .form .input,
+.form .input__textarea {
     width: 550px;
-    height:20px;
+    height: 20px;
     display: block;
     outline: none;
     border: none;
@@ -40,11 +41,13 @@
     background-color: transparent;
     resize: none;
 }
-.form .input::placeholder, .form .input__textarea::placeholder{
+
+.form .input::placeholder,
+.form .input__textarea::placeholder {
     opacity: 0.2;
 }
 
-.form .input__textarea{
+.form .input__textarea {
     margin-bottom: 0;
 }
 
@@ -66,7 +69,7 @@
 
 
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
     .contacts {
         height: 550px;
         padding-top: 49px;
@@ -83,7 +86,9 @@
         font-size: 14px;
     }
 
-  .contacts  .inner__wrapper  .form .input, .form .input__textarea {
+
+    .contacts .inner__wrapper .form .input,
+    .form .input__textarea {
         width: 346px;
         height: 50px;
         background-color: rgb(255, 255, 255);
@@ -129,6 +134,63 @@
         height: 400px;
         top: 200px;
         left: 328px;
+    }
+
+
+}
+
+@media (max-width: 767px) {
+    .contacts {
+        height: 707px;
+        padding-top: 42px;
+        padding-left: 20px;
+    }
+
+    .contacts .section__title {
+        margin: 0 0 15px 99px;
+    }
+
+    .contacts .section__subtitle {
+        margin: 0 0 8px 0;
+    }
+
+    .form__wrapper .title {
+        width: 260px;
+    }
+
+    .contacts .inner__wrapper {
+        display: block;
+    }
+
+
+    .contacts .inner__wrapper .form .input,
+    .form .input__textarea {
+        width: 280px;
+        margin-bottom: 10px;
+        padding-left: 11px;
+    }
+
+
+    .form .input__textarea {
+        width: 280px;
+        height: 120px;
+    }
+
+    .contacts__information {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+
+    .contacts__btn {
+        margin-top: 20px;
+        margin-left: 70px;
+        width: 180px;
+        height: 51px;
+    }
+
+    .contacts__information .img {
+        display: none;
     }
 
 

@@ -93,7 +93,7 @@ body {
     .section__subtitle{
         font-size: 22px;
     }
- .contacts, footer{
+  footer{
         display: none;
     }
 }
