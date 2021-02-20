@@ -18,7 +18,7 @@ body {
 
     margin: 0 auto;
     max-width: 1366px;
-    /* word-break: break-all; */
+    word-break: break-all;
 }
 
 
