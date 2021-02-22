@@ -31,52 +31,34 @@
   color: #2d2829;
 }
 
-@media  (max-width: 1024px) {
+@media (max-width: 1024px) {
   .person__img {
     width: 109px;
     height: 108px;
     margin-left: 50px;
     margin-right: 25px;
     margin-top: 56px;
-  }
-
-  .person__header {
-    font-size: 16px;
-  }
-
-  .person__subheader {
-    margin-top: 2px;
-    font-size: 14px;
-  }
-
-  .person__review {
-    width: 270px;
-    font-size: 14px;
-  }
-}
-
-@media  (max-width: 1024px) {
-  .person__img {
     width: 59px;
     height: 59px;
     margin-left: 85px;
     margin-right: 0px;
     margin-top: 22px;
   }
-
   .person__header {
+    font-size: 16px;
     margin-left: 93px;
     font-size: 14px;
-
   }
-
   .person__subheader {
+    margin-top: 2px;
+    font-size: 14px;
     margin-top: 3px;
     font-size: 12px;
     margin-left: 76px;
   }
-
   .person__review {
+    width: 270px;
+    font-size: 14px;
     text-align: center;
     margin-left: -15px;
     width: 260px;
@@ -84,3 +66,4 @@
     font-size: 12px;
   }
 }
+/*# sourceMappingURL=reviews__person.css.map */

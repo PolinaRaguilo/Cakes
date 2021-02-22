@@ -1,57 +1,54 @@
 .promo__header {
-    width: 370px;
-    font-family: 'Playfair Display', serif;
-    margin-left: 75px;
-    padding-top: 164px;
-    margin-bottom: 0;
-    font-size: 79px;
-    line-height: 70px;
-    font-weight: 700;
-    letter-spacing: 0.075em;
-    color: #2e2829;
+  width: 370px;
+  font-family: 'Playfair Display', serif;
+  margin-left: 75px;
+  padding-top: 164px;
+  margin-bottom: 0;
+  font-size: 79px;
+  line-height: 70px;
+  font-weight: 700;
+  letter-spacing: 0.075em;
+  color: #2e2829;
 }
 
 .promo__subtitle {
-    margin: 31px 0 0 75px;
-    font-family: 'Pacifico', cursive;
-    font-size: 41px;
-    line-height: 77px;
-    font-weight: 400;
-    letter-spacing: 0.075em;
-    color: #32313d;
+  margin: 31px 0 0 75px;
+  font-family: 'Pacifico', cursive;
+  font-size: 41px;
+  line-height: 77px;
+  font-weight: 400;
+  letter-spacing: 0.075em;
+  color: #32313d;
 }
 
-@media  (max-width: 1024px){
-    .promo__header {
-        margin-left: 46px;
-        padding-top: 112px;
-        font-size: 60px;
-        line-height: 55px;
-        z-index: 5;
-        position: relative;
-    }
-    
-    .promo__subtitle {
-        font-size: 36px;
-        margin-left: 46px;
-        margin-top: 29px;;
-    }
-    
+@media (max-width: 1024px) {
+  .promo__header {
+    margin-left: 46px;
+    padding-top: 112px;
+    font-size: 60px;
+    line-height: 55px;
+    z-index: 5;
+    position: relative;
+  }
+  .promo__subtitle {
+    font-size: 36px;
+    margin-left: 46px;
+    margin-top: 29px;
+  }
 }
 
-@media (max-width: 767px){
-    .promo__header {
-        text-align: center;
-        margin-left: unset;
-        padding-top: 134px;
-        font-size: 40px;
-        line-height: 36px;
-    }
-    
-    .promo__subtitle {
-        font-size: 22px;
-        margin-left: 94px;
-        margin-top: -7px;
-    }
-    
+@media (max-width: 767px) {
+  .promo__header {
+    text-align: center;
+    margin-left: unset;
+    padding-top: 134px;
+    font-size: 40px;
+    line-height: 36px;
+  }
+  .promo__subtitle {
+    font-size: 22px;
+    margin-left: 94px;
+    margin-top: -7px;
+  }
 }
+/*# sourceMappingURL=titles.css.map */

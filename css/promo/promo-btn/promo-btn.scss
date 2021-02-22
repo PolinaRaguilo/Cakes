@@ -1,0 +1,18 @@
+.promo__btn {
+	width: 226px;
+	height: 51px;
+	margin-top: 60px;
+	margin-left: 75px;
+}
+@media (max-width: 1024px) {
+	.promo__btn {
+		margin-top: 53px;
+		margin-left: 47px;
+	}
+}
+@media (max-width: 767px) {
+	.promo__btn {
+		margin-top: 43px;
+		transform: translate(20px, 90px);
+	}
+}

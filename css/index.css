@@ -1,27 +1,24 @@
-@import './header/header.css';
-@import './promo/promo.css';
-@import './cakes-gallery/cakes-gallery.css';
-@import './individual-order/individual-order.css';
-@import './reviews/reviews.css';
-@import './about-us/about-us.css';
-@import './citation/citation.css';
-@import './advantages/advantages.css';
-@import './how-order/how-order.css';
-@import './contacts/contacts.css';
-@import './footer/footer.css';
+@import "./header/header.css";
+@import "./promo/promo.css";
+@import "./cakes-gallery/cakes-gallery.css";
+@import "./individual-order/individual-order.css";
+@import "./reviews/reviews.css";
+@import "./about-us/about-us.css";
+@import "./citation/citation.css";
+@import "./advantages/advantages.css";
+@import "./how-order/how-order.css";
+@import "./contacts/contacts.css";
+@import "./footer/footer.css";
 
 body {
     background-color: #fbebea;
 }
 
 .wrapper {
-
     margin: 0 auto;
     max-width: 1366px;
     word-break: break-all;
 }
-
-
 
 .btn {
     background-color: #f50049;
@@ -42,14 +39,11 @@ body {
 
 .fa-chevron-left::before {
     color: #d77c8f;
-
 }
 
 .fa-chevron-right::before {
     color: #d77c8f;
-
 }
-
 
 .section__title {
     font-family: 'Playfair Display', serif;
@@ -65,8 +59,7 @@ body {
     color: #32313d;
 }
 
-
-@media   (max-width: 1024px) {
+@media (max-width: 1024px) {
     .wrapper {
         max-width: 1024px;
     }
@@ -75,13 +68,12 @@ body {
         font-size: 28px;
     }
 
-    .section__subtitle{
+    .section__subtitle {
         font-size: 26px;
     }
-
 }
 
-@media(max-width: 767px) {
+@media (max-width: 767px) {
     .wrapper {
         max-width: 767px;
     }
@@ -90,7 +82,9 @@ body {
         font-size: 24px;
     }
 
-    .section__subtitle{
+    .section__subtitle {
         font-size: 22px;
     }
 }
+
+/*# sourceMappingURL=index.css.map */

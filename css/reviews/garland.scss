@@ -1,0 +1,27 @@
+.ornamentation__wrapper {
+	display: flex;
+	margin-top: 0;
+	img {
+		&:nth-child(2) {
+			margin-left: 270px;
+		}
+	}
+}
+@media (max-width: 1024px) {
+	.ornamentation__wrapper {
+		img {
+			width: 315px;
+			height: 76px;
+			&:nth-child(2) {
+				margin-left: 138px;
+			}
+		}
+	}
+}
+@media (max-width: 767px) {
+	.ornamentation__wrapper {
+		img {
+			display: none;
+		}
+	}
+}

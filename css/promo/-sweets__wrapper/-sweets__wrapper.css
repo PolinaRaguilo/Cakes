@@ -4,7 +4,6 @@
     margin-left: 62px;
 }
 
-
 .sweets-strawberry1__img {
     margin-top: 45px;
     margin-bottom: 80px;
@@ -43,8 +42,6 @@
         margin-top: 118px;
         margin-left: -140px;
     }
-
-
 }
 
 @media (max-width: 767px) {
@@ -69,3 +66,5 @@
         display: none;
     }
 }
+
+/*# sourceMappingURL=-sweets__wrapper.css.map */

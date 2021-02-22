@@ -1,27 +1,32 @@
-@import './titles/titles.css';
-@import './promo-btn/promo-btn.css';
-@import './description/description.css';
-@import './-sweets__wrapper/-sweets__wrapper.css';
+@import url(./titles/titles.css);
+@import url(./promo-btn/promo-btn.css);
+@import url(./description/description.css);
+@import url(./-sweets__wrapper/-sweets__wrapper.css);
 
 .promo {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     min-height: 920px;
     background-color: #fbebea;
 }
 
-
-@media  (max-width: 1024px) {
+@media (max-width: 1024px) {
     .promo {
         min-height: 734px;
         margin: 0;
     }
 }
-@media  (max-width: 767px) {
+
+@media (max-width: 767px) {
     .promo {
         position: relative;
         min-height: 440px;
     }
-    .promo__title{
+
+    .promo__title {
         margin: 0 auto;
     }
 }
+
+/*# sourceMappingURL=promo.css.map */

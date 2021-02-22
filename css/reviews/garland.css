@@ -1,4 +1,6 @@
 .ornamentation__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 0;
 }
@@ -7,18 +9,19 @@
   margin-left: 270px;
 }
 
-@media  (max-width: 1024px){
-  .ornamentation__wrapper img{
+@media (max-width: 1024px) {
+  .ornamentation__wrapper img {
     width: 315px;
-height: 76px;
+    height: 76px;
   }
   .ornamentation__wrapper img:nth-child(2) {
     margin-left: 138px;
   }
 }
 
-@media  (max-width: 767px){
-  .ornamentation__wrapper img{
+@media (max-width: 767px) {
+  .ornamentation__wrapper img {
     display: none;
   }
 }
+/*# sourceMappingURL=garland.css.map */

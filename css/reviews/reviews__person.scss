@@ -1,0 +1,64 @@
+.person__img {
+	margin-left: 100px;
+	margin-right: 54px;
+	width: 209px;
+	height: 209px;
+}
+.person__header {
+	font-family: 'Questrial', sans-serif;
+	margin: 0;
+	font-size: 27px;
+	font-weight: 700;
+	color: #2d2829;
+}
+.person__subheader {
+	font-family: 'Questrial', sans-serif;
+	margin-top: 8px;
+	margin-bottom: 0;
+	font-size: 20px;
+	font-weight: 400;
+	color: #2d2829;
+}
+.person__review {
+	font-family: 'Questrial', sans-serif;
+	font-size: 18.5px;
+	line-height: 24px;
+	font-weight: 400;
+	width: 368px;
+	color: #2d2829;
+}
+@media (max-width: 1024px) {
+	.person__img {
+		width: 109px;
+		height: 108px;
+		margin-left: 50px;
+		margin-right: 25px;
+		margin-top: 56px;
+		width: 59px;
+		height: 59px;
+		margin-left: 85px;
+		margin-right: 0px;
+		margin-top: 22px;
+	}
+	.person__header {
+		font-size: 16px;
+		margin-left: 93px;
+		font-size: 14px;
+	}
+	.person__subheader {
+		margin-top: 2px;
+		font-size: 14px;
+		margin-top: 3px;
+		font-size: 12px;
+		margin-left: 76px;
+	}
+	.person__review {
+		width: 270px;
+		font-size: 14px;
+		text-align: center;
+		margin-left: -15px;
+		width: 260px;
+		line-height: 1.2;
+		font-size: 12px;
+	}
+}
