@@ -1,11 +1,13 @@
-@import './about-us__text.css';
-@import './about-us__social/about-us__social.css';
-
+@import url(./about-us__text.css);
+@import url(./about-us__social/about-us__social.css);
 .about-us {
   padding-top: 175px;
   height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 .about-us__wrapper {
   margin-left: 73px;
 }
@@ -20,7 +22,7 @@
   margin-bottom: 0;
 }
 
-@media  (max-width: 1024px){
+@media (max-width: 1024px) {
   .about-us {
     padding-top: 110px;
     height: 310px;
@@ -28,13 +30,12 @@
   .about-us__wrapper {
     margin-left: 47px;
   }
-  
   .about-us__wrapper .section__title {
     margin: 13px 0;
   }
 }
 
-@media  (max-width: 767px){
+@media (max-width: 767px) {
   .about-us {
     position: relative;
     display: block;
@@ -44,12 +45,11 @@
   .about-us__wrapper {
     margin-left: 20px;
   }
-  
   .about-us__wrapper .section__title {
     margin: 0 0 27px 109px;
   }
   .about-us__wrapper .section__subtitle {
     margin-top: 197px;
   }
-  
 }
+/*# sourceMappingURL=about-us.css.map */

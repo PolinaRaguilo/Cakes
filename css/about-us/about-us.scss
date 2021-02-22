@@ -1,0 +1,59 @@
+@import "./about-us__text.css";
+
+@import "./about-us__social/about-us__social.css";
+
+.about-us {
+  padding-top: 175px;
+  height: 600px;
+  display: flex;
+}
+
+.about-us__wrapper {
+  margin-left: 73px;
+
+  .section__title {
+    margin-bottom: 33px;
+    margin-top: 0;
+  }
+
+  .section__subtitle {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .about-us {
+    padding-top: 110px;
+    height: 310px;
+  }
+
+  .about-us__wrapper {
+    margin-left: 47px;
+
+    .section__title {
+      margin: 13px 0;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .about-us {
+    position: relative;
+    display: block;
+    padding-top: 52px;
+    height: 480px;
+  }
+
+  .about-us__wrapper {
+    margin-left: 20px;
+
+    .section__title {
+      margin: 0 0 27px 109px;
+    }
+
+    .section__subtitle {
+      margin-top: 197px;
+    }
+  }
+}
