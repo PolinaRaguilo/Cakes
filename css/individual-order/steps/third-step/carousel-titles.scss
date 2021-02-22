@@ -1,0 +1,47 @@
+.carousel__titles {
+	position: absolute;
+	top: 320px;
+	left: 87px;
+	bottom: 31px;
+}
+.carousel__header {
+	font-family: 'Questrial', sans-serif;
+	text-align: center;
+	font-weight: 400;
+	margin-bottom: 0;
+	color: #2f2f2f;
+}
+.carousel__price {
+	font-family: 'Playfair Display', serif;
+	margin-top: 5px;
+	font-size: 22px;
+	font-weight: 700;
+	color: #2f2f2f;
+}
+@media (max-width: 1024px) {
+	.carousel__titles {
+		top: 190px;
+		left: 47px;
+	}
+	.carousel__header {
+		font-size: 14px;
+		text-align: center;
+	}
+	.carousel__price {
+		font-size: 14px;
+		text-align: center;
+	}
+}
+@media (max-width: 767px) {
+	.carousel__titles {
+		position: unset;
+	}
+	.carousel__header {
+		font-size: 18px;
+		text-align: center;
+	}
+	.carousel__price {
+		font-size: 18px;
+		text-align: center;
+	}
+}

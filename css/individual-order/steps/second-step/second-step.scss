@@ -1,0 +1,11 @@
+@import "./size/size.css";
+.step__content_second {
+	margin-top: 35px !important;
+	display: flex;
+}
+@media (max-width: 767px) {
+	.step__content_second {
+		margin-top: 10px !important;
+		display: block;
+	}
+}

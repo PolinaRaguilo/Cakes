@@ -1,0 +1,239 @@
+.step__content_first {
+	display: flex;
+	.description__wrapper {
+		margin-top: 88px;
+	}
+}
+.description__wrapper {
+	display: flex;
+	.description__content {
+		margin-left: 44px;
+		margin-top: 71px;
+	}
+	.arrow-left {
+		margin-top: 186px;
+		margin-right: 91px;
+	}
+	.arrow-right {
+		margin-top: 186px;
+		margin-left: 135px;
+	}
+}
+.description__img {
+	max-width: 344px;
+	max-height: 390px;
+}
+.description__content {
+	width: 280px;
+}
+.description__header {
+	margin-bottom: 12px;
+	margin-top: 0;
+	font-family: 'Questrial', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 0.01em;
+	color: #2f2f2f;
+}
+.description__article {
+	margin-top: 0;
+	font-family: 'Questrial', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #2f2f2f;
+}
+.description__price {
+	margin-top: 24px;
+	margin-bottom: 50px;
+	font-family: 'Playfair Display', serif;
+	font-size: 22px;
+	font-weight: 700;
+	color: #2f2f2f;
+}
+.step__btn_first {
+	width: 180px;
+	height: 51px;
+}
+.arrow-left {
+	width: 9px;
+	height: 16px;
+}
+.arrow-right {
+	width: 9px;
+	height: 16px;
+}
+.description__number {
+	margin-top: 376px;
+	opacity: 0.7;
+	font-family: 'Questrial', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #2f2f2f;
+}
+.dots__wrapper {
+	display: none;
+}
+@media (max-width: 1024px) {
+	.step__content_first {
+		margin-top: 53px;
+		margin-left: -45px;
+		.arrow-left {
+			.fas {
+				position: absolute;
+				top: 12px;
+				left: 14px;
+			}
+		}
+		.arrow-right {
+			.fas {
+				position: absolute;
+				top: 12px;
+				left: 17px;
+			}
+		}
+		.description__wrapper {
+			margin-top: 53px;
+			margin-left: -35px;
+		}
+	}
+	.description__img {
+		width: 210px;
+		height: 239px;
+	}
+	.description__content {
+		margin-left: 25px;
+		margin-top: 25px;
+	}
+	.description__header {
+		margin-bottom: 8px;
+		font-size: 18px;
+	}
+	.description__article {
+		font-size: 14px;
+		width: 190px;
+	}
+	.description__price {
+		margin-top: 12px;
+		margin-bottom: 26px;
+		font-size: 20px;
+	}
+	.step__btn_first {
+		width: 135px;
+		height: 43px;
+		font-size: 10px !important;
+	}
+	.arrow-left {
+		position: relative;
+		width: 40px;
+		height: 40px;
+		opacity: 0.6;
+		background-color: #ffffff;
+		box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+		border-radius: 50%;
+	}
+	.arrow-right {
+		position: relative;
+		width: 40px;
+		height: 40px;
+		opacity: 0.6;
+		background-color: #ffffff;
+		box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+		border-radius: 50%;
+	}
+	.description__wrapper {
+		.arrow-left {
+			margin-top: 95px;
+			margin-right: 42px;
+		}
+		.arrow-right {
+			margin-top: 95px;
+			margin-left: -48px;
+		}
+	}
+	.description__number {
+		margin-top: 230px;
+		font-size: 11px;
+		margin-left: -70px;
+	}
+}
+@media (max-width: 767px) {
+	.description__img {
+		width: 241px;
+		height: 113px;
+	}
+	.step__content_first {
+		display: block;
+		.description__wrapper {
+			position: relative;
+			margin-top: 18px;
+			margin-left: 19px;
+			.dots__wrapper {
+				.dot {
+					&:nth-child(5) {
+						width: 4px;
+						height: 4px;
+					}
+				}
+			}
+		}
+	}
+	.description__wrapper {
+		display: block;
+	}
+	.description__content {
+		margin-left: unset !important;
+		margin-top: 21px !important;
+	}
+	.description__header {
+		font-size: 16px;
+	}
+	.description__article {
+		width: 218px;
+	}
+	.description__price {
+		margin-top: 17px;
+		margin-bottom: 0px;
+		margin-left: 70px;
+		font-size: 18px;
+	}
+	.step__btn_first {
+		width: 180px;
+		height: 51px;
+		font-size: 10px !important;
+		margin: 23px 30px;
+	}
+	.arrow-left {
+		display: none;
+	}
+	.arrow-right {
+		display: none;
+	}
+	.description__number {
+		position: absolute;
+		margin-top: 230px;
+		font-size: 11px;
+		margin-left: unset;
+		margin-top: unset;
+		left: 210px;
+		top: 95px;
+		color: white;
+	}
+	.dots__wrapper {
+		display: flex;
+		margin-top: 10px;
+		align-items: baseline;
+		margin-left: 91px;
+		.dot {
+			margin-right: 5px;
+			width: 6px;
+			height: 6px;
+			background-color: grey;
+			border-radius: 50%;
+			&:nth-child(1) {
+				width: 8px;
+				height: 8px;
+				background-color: #f50049;
+			}
+		}
+	}
+}

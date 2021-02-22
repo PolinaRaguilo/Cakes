@@ -1,0 +1,130 @@
+.choice {
+	margin-top: 27px;
+	margin-left: 73px;
+	.form {
+		display: flex;
+		margin-top: 20px;
+		.input__inner {
+			.input__item {
+				&::placeholder {
+					font-size: 18px;
+					margin-bottom: 0;
+					font-weight: 400;
+					color: #2d2829;
+				}
+				font-family: 'Questrial', sans-serif;
+				display: block;
+				outline: none;
+				width: 249px;
+				height: 30px;
+				margin-top: 25px;
+				border: none;
+				border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+			}
+			&:nth-child(2) {
+				.input__item {
+					width: 137px;
+				}
+			}
+			margin-right: 83px;
+			&:nth-child(3) {
+				margin-right: 26px;
+			}
+		}
+	}
+}
+.choice__header {
+	font-family: 'Playfair Display', serif;
+	font-size: 27px;
+	margin: 0;
+	font-weight: 700;
+	letter-spacing: 0.01em;
+	color: #2d2829;
+}
+.input__label {
+	font-family: 'Pacifico', cursive;
+	margin: 0;
+	font-size: 27px;
+	font-weight: 400;
+	color: #f50049;
+}
+@media (max-width: 1024px) {
+	.choice {
+		margin-top: 36px;
+		margin-left: 45px;
+		.form {
+			text-align: center;
+			margin-top: 13px;
+			.input__inner {
+				.input__item {
+					&::placeholder {
+						font-size: 14px;
+					}
+					margin: 0 auto;
+					text-align: center;
+					position: relative;
+					width: 160px;
+					height: 30px;
+					margin-top: 10px;
+					border-radius: 15px;
+					border-color: rgb(221, 221, 221);
+					background-color: #FFFFFF;
+				}
+				&:nth-child(2) {
+					.input__item {
+						width: 74px;
+						height: 30px;
+					}
+				}
+				margin-right: 20px;
+				&:nth-child(3) {
+					margin-right: 42px;
+				}
+			}
+		}
+	}
+	.choice__header {
+		font-size: 18px;
+	}
+	.input__label {
+		font-size: 20px;
+	}
+}
+@media (max-width: 767px) {
+	.choice {
+		margin-top: 210px;
+		margin-left: 18px;
+		.form {
+			display: block;
+			margin-top: 14px;
+			.input__inner {
+				.input__item {
+					&::placeholder {
+						font-size: 12px;
+					}
+					text-align: center;
+					width: 243px;
+					height: 30px;
+					margin-top: 6px;
+				}
+				&:nth-child(2) {
+					.input__item {
+						width: 243px;
+						height: 30px;
+					}
+				}
+				margin-top: 12px;
+				margin-right: 23px;
+				&:nth-child(3) {
+					margin-right: 0px;
+				}
+			}
+		}
+	}
+	.choice__header {
+		font-size: 22px;
+	}
+	.input__label {
+		font-size: 18px;
+	}
+}

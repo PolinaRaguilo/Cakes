@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACJ,YAAY,EAAE,IAAI;EAClB,WAAW,EAAE,eAAe;EAC5B,WAAW,EAAE,uBAAuB;CACpC;;AACD,MAAM,EAAE,SAAS,EAAE,MAAM;EACxB,AAAA,IAAI,CAAC;IACJ,YAAY,EAAE,IAAI;IAClB,WAAW,EAAE,KAAK;GAClB;;;AAEF,MAAM,EAAE,SAAS,EAAE,KAAK;EACvB,AAAA,IAAI,CAAC;IACJ,OAAO,EAAE,IAAI;GACb",
+    "sources": [
+        "tel.scss"
+    ],
+    "names": [],
+    "file": "tel.css"
+}

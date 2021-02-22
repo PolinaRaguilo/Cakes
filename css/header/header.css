@@ -1,29 +1,34 @@
-@import './logo/logo.css';
-@import './telephone/tel.css';
-@import './menu/menu.css';
-
+@import url(./logo/logo.css);
+@import url(./telephone/tel.css);
+@import url(./menu/menu.css);
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .header__container {
-    display: flex;
-    align-items: center;
-    padding-top: 72px;
-    background-color: #fbebea;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 72px;
+  background-color: #fbebea;
 }
 
 @media (max-width: 1024px) {
-    .header__container {
-        height: 60px;
-        background-color: #ffffff;
-        padding-top: 21px;
-    }
+  .header__container {
+    height: 60px;
+    background-color: #ffffff;
+    padding-top: 21px;
+  }
 }
-@media(max-width: 767px){
-    .header__container {
-        height: 40px;
-        padding-top: 14px;
-    }
+
+@media (max-width: 767px) {
+  .header__container {
+    height: 40px;
+    padding-top: 14px;
+  }
 }
+/*# sourceMappingURL=header.css.map */

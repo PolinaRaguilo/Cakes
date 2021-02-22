@@ -1,0 +1,29 @@
+.socials {
+	display: flex;
+	position: relative;
+	.social__wrapper {
+		&:nth-child(1) {
+			.icon {
+				position: absolute;
+				top: 18px;
+				left: 18px;
+			}
+		}
+		&:nth-child(2) {
+			.icon {
+				position: absolute;
+				top: 14px;
+				left: 102px;
+			}
+		}
+		&:first-child {
+			margin-right: 30px;
+		}
+	}
+}
+.social__wrapper {
+	width: 63px;
+	height: 63px;
+	background-color: #ffffff;
+	border-radius: 50%;
+}

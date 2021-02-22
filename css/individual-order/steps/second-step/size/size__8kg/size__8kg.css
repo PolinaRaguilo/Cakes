@@ -22,7 +22,7 @@
   left: 88px;
 }
 
-@media  (max-width: 1024px) {
+@media (max-width: 1024px) {
   .size__8kg {
     width: 139px;
     height: 141px;
@@ -38,25 +38,21 @@
     top: 18px;
     left: 18px;
   }
-
   .size__in__8kg {
     width: 77px;
     height: 77px;
     top: 33px;
     left: 33px;
   }
-
   .size__label__8kg {
     top: 65px;
     left: 60px;
   }
-
-  
 }
 
 @media (max-width: 767px) {
   .size__8kg {
     display: none;
   }
-
 }
+/*# sourceMappingURL=size__8kg.css.map */

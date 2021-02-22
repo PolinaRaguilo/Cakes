@@ -1,28 +1,8 @@
-@import './footer__social/footer__social.css';
+@import url(./footer__social/footer__social.css);
+
 footer {
     height: 160px;
     background-color: #e8e8e8;
-}
-
-
-.footer__container {
-    display: flex;
-}
-
-.footer__container .logo__link {
-    margin-top: 38px;
-}
-
-
-
-
-.footer__container .menu {
-    margin-top: 46px;
-    margin-left: 162px;
-}
-
-.footer__container .menu .menu__list .menu__item:last-child{
-    display: none;
 }
 
 footer .line {
@@ -47,37 +27,30 @@ footer .year {
     color: #000000;
 }
 
-@media  (max-width: 1024px){
+.footer__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.footer__container .logo__link {
+    margin-top: 38px;
+}
+
+.footer__container .menu {
+    margin-top: 46px;
+    margin-left: 162px;
+}
+
+.footer__container .menu .menu__list .menu__item:last-child {
+    display: none;
+}
+
+@media (max-width: 1024px) {
     footer {
         width: 100%;
         height: 140px;
-        background-color:  #898989;;
-    }
-    
-    .footer__container .logo__link {
-        margin-top: 35px;
-        margin-left: 20px;
-        font-size: 18px;
-        color: #ffffff;
-    }
-    
-    .footer__container .menu {
-        width: 200px;
-        margin-top: 38px;
-        margin-left: 50px;
-    }
-    .footer__container .menu .menu__item .menu__link{
-        font-size: 11px;
-        color: #ffffff;
-        margin-right: 0;
-        
-    }
-
-    .footer__container .menu .menu__item{
-        margin-right: 27px;
-    }
-    .footer__container .menu .menu__item:last-child{
-        margin-right: 0;
+        background-color: #898989;
     }
 
     footer .line {
@@ -92,8 +65,36 @@ footer .year {
         margin-left: 285px;
         margin-bottom: 0;
     }
+
+    .footer__container .logo__link {
+        margin-top: 35px;
+        margin-left: 20px;
+        font-size: 18px;
+        color: #ffffff;
+    }
+
+    .footer__container .menu {
+        width: 200px;
+        margin-top: 38px;
+        margin-left: 50px;
+    }
+
+    .footer__container .menu .menu__item {
+        margin-right: 27px;
+    }
+
+    .footer__container .menu .menu__item .menu__link {
+        font-size: 11px;
+        color: #ffffff;
+        margin-right: 0;
+    }
+
+    .footer__container .menu .menu__item:last-child {
+        margin-right: 0;
+    }
 }
-@media  (max-width: 767px){
+
+@media (max-width: 767px) {
     footer {
         width: 100%;
         height: 414px;
@@ -101,35 +102,6 @@ footer .year {
         padding-left: 20px;
         padding-bottom: 10px;
     }
-    .footer__container {
-        display: block;
-    }
-    
-    .footer__container .logo__link {
-        margin-top: 0px;
-        padding-left: 0px;
-        margin-left: 0;
-        font-size: 28px;
-    }
-    .footer__container .menu  .menu__list{
-        display: block;
-    }
-    .footer__container .menu {
-        margin-top: 30px;
-        margin-left: 0px;
-    }
-    .footer__container .menu .menu__item .menu__link{
-        font-size: 14px;
-    }
-
-    .footer__container .menu .menu__item{
-        margin-right: 0px;
-        margin-bottom: 20px;
-    }
-    .footer__container .menu .menu__list .menu__item:last-child{
-        display: block;
-    }
-    /**/
 
     footer .line {
         margin-top: 30px;
@@ -142,4 +114,39 @@ footer .year {
         margin-top: 9px;
         margin-left: 0px;
     }
+
+    .footer__container {
+        display: block;
+    }
+
+    .footer__container .logo__link {
+        margin-top: 0px;
+        padding-left: 0px;
+        margin-left: 0;
+        font-size: 28px;
+    }
+
+    .footer__container .menu {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    .footer__container .menu .menu__list {
+        display: block;
+    }
+
+    .footer__container .menu .menu__list .menu__item:last-child {
+        display: block;
+    }
+
+    .footer__container .menu .menu__item {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .footer__container .menu .menu__item .menu__link {
+        font-size: 14px;
+    }
 }
+
+/*# sourceMappingURL=footer.css.map */

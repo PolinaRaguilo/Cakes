@@ -1,6 +1,5 @@
-@import './how-order__label/how-order__label.css';
-@import './how-order__text/how-order__text.css';
-
+@import url(./how-order__label/how-order__label.css);
+@import url(./how-order__text/how-order__text.css);
 .how-order {
   margin-top: 95px;
   width: 1366px;
@@ -9,7 +8,7 @@
   position: relative;
 }
 
-@media  (max-width: 1024px) {
+@media (max-width: 1024px) {
   .how-order {
     margin-top: 95px;
     width: 768px;
@@ -21,13 +20,14 @@
   }
 }
 
-@media  (max-width: 767px) {
+@media (max-width: 767px) {
   .how-order {
     margin-top: 130px;
     width: 100%;
     height: 540px;
     background-color: #e3353d;
-    background-position:  145% 100%, -210px bottom;;
+    background-position: 145% 100%, -210px bottom;
     background-size: 86%;
   }
 }
+/*# sourceMappingURL=how-order.css.map */

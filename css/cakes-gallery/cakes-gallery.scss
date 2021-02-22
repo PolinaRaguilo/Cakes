@@ -1,0 +1,98 @@
+@import "./cards/card/card.css";
+.cakes-gallery {
+	min-height: 1520px;
+	padding-left: 70px;
+	padding-right: 70px;
+	background-color: #fbebea;
+	.section__title {
+		line-height: 65px;
+		letter-spacing: 0.01em;
+	}
+}
+.cakes-gallery__inner {
+	display: flex;
+	&:nth-child(1) {
+		.cakes-gallery__wrapper_little {
+			margin-left: 41px;
+		}
+	}
+	&:nth-child(2) {
+		.cakes-gallery__wrapper_little {
+			margin-right: 41px;
+		}
+	}
+}
+.cakes-gallery__wrapper {
+	margin-top: 65px;
+	.cakes-gallery__inner {
+		&:nth-child(2) {
+			margin-top: 45px;
+		}
+	}
+}
+.fa-arrow-right {
+	&:before {
+		color: #757575;
+		display: block;
+		margin-left: 24px;
+		margin-top: 37px;
+		margin-right: 24px;
+		margin-bottom: 24px;
+		width: 17px;
+	}
+	&:hover {
+		&::before {
+			color: #9d6d7d;
+		}
+	}
+}
+@media (max-width: 1024px) {
+	.cakes-gallery {
+		min-height: 893px;
+		padding-left: 20px;
+		padding-right: 20px;
+		.section__title {
+			line-height: 39px;
+		}
+	}
+	.cakes-gallery__wrapper {
+		margin-top: 37px;
+		.cakes-gallery__inner {
+			&:nth-child(2) {
+				margin-top: 20px;
+			}
+		}
+	}
+	.fa-arrow-right {
+		&:before {
+			display: none;
+		}
+	}
+}
+@media (max-width: 767px) {
+	.cakes-gallery {
+		width: 100%;
+		min-height: 852px;
+		.section__title {
+			text-align: center;
+			line-height: 65px;
+			margin-bottom: 0;
+		}
+	}
+	.cakes-gallery__inner {
+		display: unset;
+		&:nth-child(1) {
+			.cakes-gallery__wrapper_little {
+				margin-left: unset;
+			}
+		}
+	}
+	.cakes-gallery__wrapper {
+		margin-top: 32px;
+		.cakes-gallery__inner {
+			&:nth-child(2) {
+				margin-top: unset;
+			}
+		}
+	}
+}

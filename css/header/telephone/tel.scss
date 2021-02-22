@@ -1,0 +1,16 @@
+.tel {
+	margin-right: 40px;
+	font-weight: bold !important;
+	font-family: 'Questrial', sans-serif;
+}
+@media (max-width: 1024px) {
+	.tel {
+		margin-right: 46px;
+		margin-left: 440px;
+	}
+}
+@media (max-width: 767px) {
+	.tel {
+		display: none;
+	}
+}

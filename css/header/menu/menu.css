@@ -1,117 +1,121 @@
 .menu {
-    flex-grow: 1;
-    margin-left: 45px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-left: 45px;
 }
 
 .menu__list {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .menu__link {
-    margin-right: 44px;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-family: 'Questrial', sans-serif;
-    font-weight: 300;
+  margin-right: 44px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: 'Questrial', sans-serif;
+  font-weight: 300;
 }
 
 .menu__link:hover {
-    color: #d20049;
+  color: #d20049;
 }
 
 .menu__item:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 @media (max-width: 1024px) {
-    
-
-    header .menu__list {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        display: none;
-        position: absolute;
-        top: 81px;
-        left: 0;
-        text-align: center;
-    }
-
-    header {
-        position: relative;
-    }
-
-    .hamburger {
-        display: block;
-        position: absolute;
-        left: 131px;
-        bottom: 20px;
-        width: 26px;
-    }
-
-    .hamburger span {
-        display: block;
-        width: 26px;
-        height: 2px;
-        background-color: #000000;
-        border-radius: 1px;
-        margin-bottom: 6px;
-        transition: 0.5s all;
-    }
-
-    .hamburger span:last-child {
-        margin-bottom: 0;
-    }
-
-    .hamburger_active span:nth-child(1) {
-        transform: translateY(2px) rotate(-45deg)
-    }
-
-    .hamburger_active span:nth-child(2) {
-        display: none
-    }
-
-    .hamburger_active span:nth-child(3) {
-        transform: translateY(-6px) rotate(45deg)
-    }
-
-    header .menu_active {
-        display: block;
-        position: absolute;
-        z-index: 6;
-    }
-
-
-    header .menu__item {
-        padding-top: 17px;
-        border-bottom: 1px solid  rgba(0, 0, 0, 0.05);
-        width: 320px;
-        height: 40px;
-        background-color: #e7e7e7;
-        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
-    }
+  header {
+    position: relative;
+  }
+  header .menu__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: none;
+    position: absolute;
+    top: 81px;
+    left: 0;
+    text-align: center;
+  }
+  header .menu_active {
+    display: block;
+    position: absolute;
+    z-index: 6;
+  }
+  header .menu__item {
+    padding-top: 17px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    width: 320px;
+    height: 40px;
+    background-color: #e7e7e7;
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+            box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  }
+  .hamburger {
+    display: block;
+    position: absolute;
+    left: 131px;
+    bottom: 20px;
+    width: 26px;
+  }
+  .hamburger span {
+    display: block;
+    width: 26px;
+    height: 2px;
+    background-color: #000000;
+    border-radius: 1px;
+    margin-bottom: 6px;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+  }
+  .hamburger span:last-child {
+    margin-bottom: 0;
+  }
+  .hamburger_active span:nth-child(1) {
+    -webkit-transform: translateY(2px) rotate(-45deg);
+            transform: translateY(2px) rotate(-45deg);
+  }
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  .hamburger_active span:nth-child(3) {
+    -webkit-transform: translateY(-6px) rotate(45deg);
+            transform: translateY(-6px) rotate(45deg);
+  }
 }
+
 @media (max-width: 767px) {
-    header .menu__list {
-        width: 100%;
-        top: 54px;
-    }
-    .hamburger {
-        float: right;
-        left: 92%;
-        bottom: 13px;
-    }
-
-    .hamburger span {
-        width: 18px;
-    }
-    header .menu__item {
-        width: 100%;
-    }
-    header .menu__item .menu__link{
-        font-size: 12px;
-    }
+  header .menu__list {
+    width: 100%;
+    top: 54px;
+  }
+  header .menu__item {
+    width: 100%;
+  }
+  header .menu__item .menu__link {
+    font-size: 12px;
+  }
+  .hamburger {
+    float: right;
+    left: 92%;
+    bottom: 13px;
+  }
+  .hamburger span {
+    width: 18px;
+  }
 }
+/*# sourceMappingURL=menu.css.map */

@@ -1,24 +1,23 @@
-@import './individual-order__text/individual-order__text.css';
-@import './steps/steps.css';
-
-
+@import url(./individual-order__text/individual-order__text.css);
+@import url(./steps/steps.css);
 .individual-order {
   min-height: 2180px;
   margin-top: 105px;
   background-color: #fbebea;
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
   .individual-order {
     min-height: 1322px;
     margin-top: 60px;
   }
 }
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
   .individual-order {
     width: 100%;
     min-height: 1784px;
     margin-top: 50px;
   }
 }
+/*# sourceMappingURL=individual-order.css.map */

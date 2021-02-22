@@ -1,0 +1,92 @@
+@import "./first-step/first-step.css";
+@import "./second-step/second-step.css";
+@import "./third-step/third-step.css";
+.step {
+	margin: 49px 73px 35px;
+	width: 1220px;
+	height: 571px;
+	background-color: #ffffff;
+	box-shadow: 0px 5px 12.74px 0.26px rgba(139, 14, 62, 0.1);
+	.step__title {
+		padding-top: 44px;
+		margin-left: 83px;
+		max-width: 180px;
+	}
+}
+.step__content_first {
+	.step__title {
+		width: 155px;
+	}
+}
+.step__number {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 10px;
+	font-family: 'Playfair Display', serif;
+	font-size: 59px;
+	font-weight: 700;
+	letter-spacing: 0.01em;
+	color: #f50049;
+}
+.step__name {
+    display: block;
+	margin-top: 0px;
+	font-family: 'Playfair Display', serif;
+	font-size: 27px;
+	font-weight: 700;
+	letter-spacing: 0.01em;
+	color: #f50049;
+}
+@media (max-width: 1024px) {
+	.step {
+		margin: 31px 20px 31px 20px;
+		width: 728px;
+		height: 348px;
+		.step__title {
+			padding-top: unset;
+			margin-left: 45px;
+			width: 121px;
+		}
+		.step__number {
+			padding-bottom: 8px;
+			font-size: 36px;
+		}
+		.step__name {
+			font-size: 18px;
+		}
+	}
+	.individual-order {
+		.step {
+			&:last-child {
+				.step__title {
+					padding-top: 40px;
+				}
+			}
+		}
+	}
+	.step__content_first {
+		.step__title {
+			max-width: 100px;
+		}
+	}
+}
+@media (max-width: 767px) {
+	.step {
+		margin: 19px 20px 10px 20px;
+		width: 280px;
+		height: 430px;
+		.step__title {
+			display: inline;
+			margin-left: 19px;
+			padding-top: 18px;
+		}
+		.step__number {
+			padding-bottom: unset;
+			font-size: 30px;
+		}
+		.step__name {
+			font-size: 16px;
+            display: unset;
+		}
+	}
+}

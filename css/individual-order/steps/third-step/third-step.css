@@ -1,15 +1,20 @@
-@import './third-step__cakes.css';
-@import './carousel-titles.css';
-@import './carousel-card.css';
-@import './input__order.css';
-
+@import url(./third-step__cakes.css);
+@import url(./carousel-titles.css);
+@import url(./carousel-card.css);
+@import url(./input__order.css);
 .step__content_third {
   height: 752px !important;
 }
 
 .carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: -75px;
+}
+
+.carousel .card .step__btn_first {
+  display: none;
 }
 
 .btn__order {
@@ -18,11 +23,7 @@
   margin-top: 30px;
 }
 
-.carousel .card .step__btn_first{
-  display: none;
-}
-
-@media  (max-width: 1024px) {
+@media (max-width: 1024px) {
   .step__content_third {
     height: 470px !important;
   }
@@ -33,11 +34,11 @@
   }
 }
 
-@media  (max-width: 767px) {
+@media (max-width: 767px) {
   .step__content_third {
     height: 800px !important;
   }
-  .carousel .card .step__btn_first{
+  .carousel .card .step__btn_first {
     display: block;
     margin-top: 30px;
     margin-left: 0px;
@@ -48,3 +49,4 @@
     margin-top: 30px;
   }
 }
+/*# sourceMappingURL=third-step.css.map */

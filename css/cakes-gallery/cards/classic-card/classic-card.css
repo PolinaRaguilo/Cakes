@@ -1,24 +1,23 @@
-
 .card__footer .footer__text {
-    font-family: 'Questrial', sans-serif;
-    font-size: 20px;
-    bottom: 50px;
-    font-weight: 400;
-    color: #2d2829;
+  font-family: 'Questrial', sans-serif;
+  font-size: 20px;
+  bottom: 50px;
+  font-weight: 400;
+  color: #2d2829;
 }
 
-
-@media  (max-width: 1024px) {
-    .card__footer .footer__text {
-        font-size: 12px;
-        bottom: 20px;
-        margin-right: 20px;
-        margin-bottom: 10px;
-    }
+@media (max-width: 1024px) {
+  .card__footer .footer__text {
+    font-size: 12px;
+    bottom: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
 }
 
-@media  (max-width: 767px) {
-    .card__footer .footer__text {
-        display: none;
-    }
+@media (max-width: 767px) {
+  .card__footer .footer__text {
+    display: none;
+  }
 }
+/*# sourceMappingURL=classic-card.css.map */

@@ -26,14 +26,12 @@
 }
 
 @media (max-width: 1024px) {
-
   .citation__quotes {
     font-size: 77px;
     line-height: 112px;
     color: #fffefe;
     margin-top: 45px;
   }
-
   .citation__text {
     width: 340px;
     margin-bottom: 26px;
@@ -44,22 +42,20 @@
 }
 
 @media (max-width: 767px) {
-
   .citation__quotes {
     font-size: 60px;
     line-height: 87px;
     margin-top: 0px;
   }
-
   .citation__text {
     width: 280px;
     margin-bottom: 22px;
     line-height: 1.2;
     margin-top: -30px;
   }
-
   .citation__img {
     width: 64px;
     height: 31px;
   }
 }
+/*# sourceMappingURL=citation.css.map */

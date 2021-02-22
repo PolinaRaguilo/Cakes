@@ -1,0 +1,26 @@
+@import "./logo/logo.css";
+@import "./telephone/tel.css";
+@import "./menu/menu.css";
+a {
+	text-decoration: none;
+	color: black;
+}
+.header__container {
+	display: flex;
+	align-items: center;
+	padding-top: 72px;
+	background-color: #fbebea;
+}
+@media (max-width: 1024px) {
+	.header__container {
+		height: 60px;
+		background-color: #ffffff;
+		padding-top: 21px;
+	}
+}
+@media (max-width: 767px) {
+	.header__container {
+		height: 40px;
+		padding-top: 14px;
+	}
+}

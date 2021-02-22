@@ -1,14 +1,21 @@
-@import './size__1kg/size__1kg.css';
-@import './size__2kg/size__2kg.css';
-@import './size__5kg/size__5kg.css';
-@import './size__8kg/size__8kg.css';
-
+@import url(./size__1kg/size__1kg.css);
+@import url(./size__2kg/size__2kg.css);
+@import url(./size__5kg/size__5kg.css);
+@import url(./size__8kg/size__8kg.css);
 .size__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: baseline;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
   margin-top: 140px;
   margin-right: 156px;
   margin-left: 15px;
+}
+
+.size__wrapper .step__btn_first {
+  display: none;
 }
 
 .size__descr {
@@ -28,39 +35,37 @@
   font-weight: 400;
   color: #2f2f2f;
   position: absolute;
-
 }
-.size__wrapper .step__btn_first{
-  display: none;
-}
-@media  (max-width: 1024px) {
 
+@media (max-width: 1024px) {
   .size__wrapper {
     margin-top: 76px;
     margin-left: -45px;
     margin-right: 70px;
   }
-
   .size__descr {
     width: 130px;
     font-size: 12px;
     line-height: 20px;
   }
-
   .size__label {
     font-size: 12px;
     line-height: 20px;
-
   }
 }
-@media  (max-width: 767px){
+
+@media (max-width: 767px) {
   .size__wrapper {
     display: block;
     margin-top: unset;
     margin-left: unset;
     margin-right: unset;
   }
-
+  .size__wrapper .step__btn_first {
+    display: block;
+    margin: 43px 50px;
+    margin-top: 180px;
+  }
   .size__descr {
     text-align: center;
     width: 130px;
@@ -68,14 +73,8 @@
     font-size: 14px;
     line-height: 1.2;
   }
-
   .size__label {
     font-size: 14px;
   }
-  .size__wrapper .step__btn_first{
-    display: block;
-    margin: 43px 50px;
-    margin-top: 180px;
-    
-  }
 }
+/*# sourceMappingURL=size.css.map */

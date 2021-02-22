@@ -1,4 +1,4 @@
-.carousel__titles{
+.carousel__titles {
   position: absolute;
   top: 320px;
   left: 87px;
@@ -21,28 +21,32 @@
   color: #2f2f2f;
 }
 
-@media  (max-width: 1024px){
-  .carousel__titles{
+@media (max-width: 1024px) {
+  .carousel__titles {
     top: 190px;
     left: 47px;
   }
-  
-  .carousel__header,.carousel__price {
+  .carousel__header {
     font-size: 14px;
     text-align: center;
   }
-
-  
+  .carousel__price {
+    font-size: 14px;
+    text-align: center;
+  }
 }
-@media  (max-width: 767px){
-  .carousel__titles{
+
+@media (max-width: 767px) {
+  .carousel__titles {
     position: unset;
   }
-  
-  .carousel__header,.carousel__price {
+  .carousel__header {
     font-size: 18px;
     text-align: center;
   }
-
-  
+  .carousel__price {
+    font-size: 18px;
+    text-align: center;
+  }
 }
+/*# sourceMappingURL=carousel-titles.css.map */
